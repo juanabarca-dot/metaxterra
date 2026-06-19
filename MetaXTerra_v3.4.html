@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="theme-color" content="#0F6E56"/>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vender o rentar terreno industrial en México | MetaXTerra</title>
+  <meta name="description" content="¿Tienes un terreno sin uso en México? Te decimos en 5 días si hay un comprador o desarrollador interesado. Centros de datos, energía e industria. Evaluación gratuita."/>
+  <meta name="keywords" content="vender terreno industrial México, comprador de terrenos, terreno para data center, terreno para parque solar, qué hacer con mi terreno, renta de terreno industrial, terreno baldío venta, terreno ejidal venta, inversión en terrenos México"/>
+  <link rel="canonical" href="https://www.metaxterra.com/"/>
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:title" content="MetaXTerra — Vende o renta tu terreno en México"/>
+  <meta property="og:description" content="Conectamos propietarios de terrenos con desarrolladores de centros de datos, energía e industria en México. Evaluación gratuita en 5 días."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.metaxterra.com"/>
+  <meta property="og:locale" content="es_MX"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="MetaXTerra — Vende o renta tu terreno en México"/>
+  <meta name="twitter:description" content="Evaluación gratuita de tu terreno en 5 días. Centros de datos, energía e industria."/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "MetaXTerra",
+    "url": "https://www.metaxterra.com",
+    "description": "Conectamos propietarios de terrenos con desarrolladores de centros de datos, energía e industria de alto consumo en México.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "México"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Metaxium Group",
+      "url": "https://www.metaxium.com"
+    },
+    "knowsAbout": ["Terrenos industriales", "Centros de datos", "Energía solar", "Desarrollo de suelo", "Nearshoring"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gd: #0F6E56; --gm: #1D9E75; --gl: #5DCAA5; --gbg: #E1F5EE;
+      --g100: #F5F4F1; --g200: #ECEAE4; --g400: #B4B2A9; --g600: #888780; --g900: #1a1a1a;
+      --tm: #1a1a1a; --ts: #666560; --th: #999894;
+      --b: rgba(0,0,0,0.09); --bm: rgba(0,0,0,0.16);
+      --r: 6px; --rm: 10px; --rl: 14px;
+      --font-head: 'Space Grotesk', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--tm); background: #fff; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+    /* ── NAV ── */
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.96); backdrop-filter: blur(10px); border-bottom: 1px solid var(--b); display: flex; justify-content: space-between; align-items: center; padding: 14px 5%; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-icon { width: 32px; height: 32px; border-radius: 7px; background: #085041; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .nav-logo-icon svg { width: 32px; height: 32px; }
+    .nav-logo-wordmark { font-family: var(--font-head); font-size: 18px; font-weight: 700; color: var(--tm); letter-spacing: -0.3px; }
+    .nav-logo-wordmark .x { color: var(--gl); }
+    .nav-links { display: flex; gap: 24px; align-items: center; }
+    .nav-links a { font-size: 14px; color: var(--ts); text-decoration: none; font-weight: 400; transition: color .15s; }
+    .nav-links a:hover { color: var(--tm); }
+    .nav-cta { background: var(--gd) !important; color: #fff !important; padding: 9px 18px; border-radius: var(--r); font-weight: 500 !important; display: inline-flex; align-items: center; gap: 6px; }
+    .nav-cta:hover { opacity: .88; }
+    .lang-toggle { display: flex; border: 1px solid var(--bm); border-radius: 6px; overflow: hidden; margin-left: 6px; }
+    .lang-btn { padding: 6px 12px; font-size: 12px; font-weight: 500; cursor: pointer; background: #fff; color: var(--ts); border: none; font-family: var(--font-body); transition: all .15s; }
+    .lang-btn.active { background: var(--gd); color: #fff; }
+
+    /* ── HERO ── */
+    .hero { padding: 80px 5% 64px; background: linear-gradient(155deg, #F0FAF6 0%, #fff 58%); position: relative; overflow: hidden; }
+    .hero-accent { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, transparent 0%, var(--gd) 25%, var(--gd) 75%, transparent 100%); z-index: 1; }
+    .hero-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--gbg); color: var(--gd); font-size: 11px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; padding: 5px 12px; border-radius: 4px; margin-bottom: 24px; }
+    .hero h1 { font-family: var(--font-head); font-size: clamp(30px, 5vw, 52px); font-weight: 700; line-height: 1.1; letter-spacing: -1px; margin-bottom: 20px; max-width: 640px; }
+    .hero h1 em { font-style: normal; color: var(--gm); }
+    .hero-sub { font-size: 16px; color: var(--ts); line-height: 1.75; max-width: 500px; margin-bottom: 36px; font-weight: 300; }
+    .hero-btns { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px; }
+    .hero-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; max-width: 540px; }
+    .hero-stat { background: #fff; border: 1px solid var(--b); border-radius: var(--rm); padding: 16px 18px; }
+    .hero-stat .num { font-family: var(--font-head); font-size: 26px; font-weight: 700; color: var(--gm); display: block; }
+    .hero-stat .lbl { font-size: 12px; color: var(--ts); font-weight: 400; margin-top: 2px; display: block; }
+
+    /* ── METAXIUM BADGE ── */
+    .metaxium-badge { display: inline-flex; align-items: center; gap: 8px; background: #111118; color: #5B8DEF; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; padding: 5px 12px 5px 8px; border-radius: 20px; margin-bottom: 20px; text-decoration: none; }
+    .metaxium-badge .badge-icon { width: 20px; height: 20px; border-radius: 4px; background: #1E2A4A; display: flex; align-items: center; justify-content: center; }
+    .metaxium-badge .badge-icon svg { width: 20px; height: 20px; }
+    .metaxium-badge span { color: #fff; }
+    .metaxium-badge span b { color: #5B8DEF; }
+
+    /* ── SECTIONS ── */
+    section { padding: 72px 5%; }
+    .section-alt { background: var(--g100); }
+    .section-label { font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--gm); margin-bottom: 10px; }
+    section h2 { font-family: var(--font-head); font-size: clamp(24px, 3.5vw, 36px); font-weight: 700; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 14px; }
+    section > p { font-size: 15px; color: var(--ts); line-height: 1.75; font-weight: 300; max-width: 560px; margin-bottom: 8px; }
+
+    /* ── CARDS ── */
+    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 32px; }
+    .card { background: #fff; border: 1px solid var(--b); border-radius: var(--rl); padding: 24px 22px; transition: box-shadow .2s; }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.07); }
+    .card-icon { width: 42px; height: 42px; background: var(--gbg); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+    .card-icon i { color: var(--gd); font-size: 20px; }
+    .card h3 { font-family: var(--font-head); font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+    .card p { font-size: 13px; color: var(--ts); line-height: 1.65; }
+
+    /* ── STEPS ── */
+    .steps { margin-top: 32px; }
+    .step { display: flex; gap: 20px; align-items: flex-start; padding: 22px 0; border-bottom: 1px solid var(--b); }
+    .step:last-child { border-bottom: none; }
+    .step-num { width: 32px; height: 32px; min-width: 32px; background: var(--gd); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; margin-top: 2px; font-family: var(--font-head); }
+    .step h4 { font-family: var(--font-head); font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .step p { font-size: 14px; color: var(--ts); line-height: 1.65; }
+
+    /* ── FORM ── */
+    #cuestionario { background: var(--g100); }
+    .badges { display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0 28px; }
+    .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--gbg); color: var(--gd); font-size: 12px; font-weight: 500; padding: 5px 12px; border-radius: 6px; }
+    .form-wrap { background: #fff; border: 1px solid var(--b); border-radius: var(--rl); padding: 36px; max-width: 680px; }
+    .progress-bar { display: flex; gap: 6px; margin-bottom: 8px; }
+    .pb { height: 4px; border-radius: 2px; flex: 1; background: var(--g200); transition: background .3s; }
+    .pb.active { background: var(--gm); }
+    .pb.done { background: var(--gl); }
+    .progress-label { font-size: 12px; color: var(--th); margin-bottom: 28px; }
+    .form-step { display: none; }
+    .form-step.visible { display: block; }
+    .form-step h3 { font-family: var(--font-head); font-size: 17px; font-weight: 600; margin-bottom: 4px; }
+    .step-desc { font-size: 13px; color: var(--ts); margin-bottom: 24px; font-weight: 300; line-height: 1.6; }
+    .field { margin-bottom: 18px; }
+    .field label { display: block; font-size: 12px; font-weight: 500; color: var(--ts); margin-bottom: 7px; letter-spacing: .2px; }
+    .field input, .field select, .field textarea { width: 100%; padding: 11px 14px; border: 1px solid var(--bm); border-radius: var(--r); font-family: var(--font-body); font-size: 14px; color: var(--tm); background: #fff; outline: none; transition: border-color .15s, box-shadow .15s; appearance: none; -webkit-appearance: none; }
+    .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 36px; }
+    .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--gm); box-shadow: 0 0 0 3px rgba(29,158,117,.12); }
+    .field textarea { min-height: 90px; resize: vertical; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+    .chip { padding: 7px 16px; border: 1px solid var(--bm); border-radius: 20px; font-size: 13px; cursor: pointer; background: #fff; color: var(--ts); font-family: var(--font-body); transition: all .15s; user-select: none; }
+    .chip:hover { border-color: var(--gl); color: var(--gd); }
+    .chip.sel { background: var(--gbg); border-color: var(--gm); color: var(--gd); font-weight: 500; }
+    .upload-zone { border: 2px dashed var(--g400); border-radius: var(--rm); padding: 24px; text-align: center; cursor: pointer; transition: all .2s; background: #fafaf8; margin-top: 6px; position: relative; }
+    .upload-zone:hover, .upload-zone.drag { border-color: var(--gm); background: var(--gbg); }
+    .upload-zone i { font-size: 28px; color: var(--g400); margin-bottom: 8px; display: block; transition: color .2s; }
+    .upload-zone:hover i, .upload-zone.drag i { color: var(--gm); }
+    .upload-zone .uz-title { font-size: 14px; font-weight: 500; color: var(--ts); margin-bottom: 4px; }
+    .upload-zone .uz-sub { font-size: 12px; color: var(--th); }
+    .upload-zone .uz-formats { font-size: 11px; color: var(--th); margin-top: 8px; background: var(--g200); display: inline-block; padding: 3px 10px; border-radius: 4px; }
+    .upload-zone input[type=file] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+    .file-list { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+    .file-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #fff; border: 1px solid var(--b); border-radius: var(--r); font-size: 13px; }
+    .file-item .fname { flex: 1; color: var(--tm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .file-item .fsize { color: var(--th); font-size: 11px; }
+    .file-remove { background: none; border: none; cursor: pointer; color: var(--th); font-size: 16px; padding: 0; line-height: 1; transition: color .15s; }
+    .file-remove:hover { color: #c0392b; }
+    .form-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--b); }
+    .btn-back { background: none; border: none; color: var(--th); font-size: 13px; cursor: pointer; font-family: var(--font-body); display: flex; align-items: center; gap: 4px; padding: 0; transition: color .15s; }
+    .btn-back:hover { color: var(--tm); }
+    .btn-next { display: inline-flex; align-items: center; gap: 8px; background: var(--gd); color: #fff; border: none; padding: 12px 26px; border-radius: var(--r); font-size: 14px; font-weight: 500; cursor: pointer; font-family: var(--font-body); transition: opacity .15s; }
+    .btn-next:hover { opacity: .88; }
+    .success-box { display: none; text-align: center; padding: 40px 20px 16px; }
+    .success-icon { width: 60px; height: 60px; background: var(--gbg); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+    .success-icon i { color: var(--gd); font-size: 28px; }
+    .success-box h3 { font-family: var(--font-head); font-size: 22px; margin-bottom: 10px; }
+    .success-box p { font-size: 14px; color: var(--ts); line-height: 1.75; max-width: 380px; margin: 0 auto; font-weight: 300; }
+
+    /* ── CTA DARK ── */
+    .cta-dark { background: var(--gd); padding: 72px 5%; color: #fff; }
+    .cta-dark .section-label { color: var(--gl); }
+    .cta-dark h2 { color: #fff; font-family: var(--font-head); }
+    .cta-dark > p { color: rgba(255,255,255,.72); font-size: 15px; line-height: 1.75; max-width: 520px; margin-bottom: 32px; }
+    .cta-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    /* ── BUTTONS ── */
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--gd); color: #fff; padding: 13px 24px; border-radius: var(--r); font-size: 15px; font-weight: 500; text-decoration: none; border: none; cursor: pointer; transition: opacity .15s; font-family: var(--font-body); }
+    .btn-primary:hover { opacity: .88; }
+    .btn-ghost { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--gd); border: 1px solid var(--gl); padding: 13px 24px; border-radius: var(--r); font-size: 15px; font-weight: 500; text-decoration: none; cursor: pointer; transition: background .15s; font-family: var(--font-body); }
+    .btn-ghost:hover { background: var(--gbg); }
+    .btn-white { display: inline-flex; align-items: center; gap: 8px; background: #fff; color: var(--gd); padding: 13px 24px; border-radius: var(--r); font-size: 15px; font-weight: 500; text-decoration: none; border: none; cursor: pointer; font-family: var(--font-body); transition: opacity .15s; }
+    .btn-white:hover { opacity: .9; }
+    .btn-outline-white { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.4); padding: 13px 24px; border-radius: var(--r); font-size: 15px; font-weight: 500; cursor: pointer; font-family: var(--font-body); transition: background .15s; }
+    .btn-outline-white:hover { background: rgba(255,255,255,.1); }
+
+    /* ── FOOTER ── */
+    footer { padding: 0; border-top: 1px solid var(--b); }
+    .footer-main { padding: 32px 5% 24px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 24px; }
+    .footer-brand { display: flex; flex-direction: column; gap: 8px; }
+    .footer-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .footer-logo-icon { width: 28px; height: 28px; border-radius: 6px; background: #085041; display: flex; align-items: center; justify-content: center; }
+    .footer-logo-icon svg { width: 28px; height: 28px; }
+    .footer-logo-wordmark { font-family: var(--font-head); font-size: 15px; font-weight: 700; color: var(--tm); }
+    .footer-logo-wordmark .x { color: var(--gl); }
+    .footer-tagline { font-size: 12px; color: var(--th); font-weight: 300; max-width: 220px; line-height: 1.5; }
+    .footer-metaxium { display: flex; flex-direction: column; gap: 4px; }
+    .footer-metaxium-label { font-size: 10px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; color: var(--g400); }
+    .footer-metaxium-link { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+    .footer-metaxium-icon { width: 22px; height: 22px; border-radius: 4px; background: #1E2A4A; display: flex; align-items: center; justify-content: center; }
+    .footer-metaxium-icon svg { width: 22px; height: 22px; }
+    .footer-metaxium-name { font-family: var(--font-head); font-size: 14px; font-weight: 700; color: #111118; }
+    .footer-metaxium-name b { color: #5B8DEF; }
+    .footer-metaxium-desc { font-size: 11px; color: var(--th); margin-top: 2px; }
+    .footer-bottom { padding: 14px 5%; border-top: 1px solid var(--b); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .footer-bottom p { font-size: 11px; color: var(--th); font-weight: 300; }
+    .footer-bottom a { font-size: 11px; color: var(--g400); text-decoration: none; }
+    .footer-bottom a:hover { color: var(--gd); }
+
+    /* ── QUESTIONNAIRE — BRANCH CARDS (Step 0) ── */
+    .qz-branch-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 24px; }
+    .qz-branch-card { background: #fff; border: 1.5px solid var(--bm); border-radius: var(--rm); padding: 24px 20px; cursor: pointer; transition: all .2s; text-align: left; }
+    .qz-branch-card:hover { border-color: var(--gl); background: var(--gbg); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+    .qz-bc-icon { width: 40px; height: 40px; background: var(--gbg); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+    .qz-bc-icon i { color: var(--gd); font-size: 19px; }
+    .qz-branch-card h4 { font-family: var(--font-head); font-size: 15px; font-weight: 600; margin-bottom: 6px; color: var(--tm); }
+    .qz-branch-card p { font-size: 12px; color: var(--ts); line-height: 1.5; font-weight: 300; }
+
+    /* ── QUESTIONNAIRE — IDEA CHIPS (Step A1) ── */
+    .chips-lg .chip { padding: 10px 18px; font-size: 14px; }
+
+    /* ── QUESTIONNAIRE — GENERAL STEPS ── */
+    .qz-step { display: none; }
+    .qz-step.visible { display: block; animation: qzfadein .25s ease; }
+    @keyframes qzfadein { from { opacity:0; transform: translateY(6px);} to { opacity:1; transform: translateY(0);} }
+    .qz-step h3 { font-family: var(--font-head); font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+
+    .field-note { font-size: 11px; color: var(--th); margin-top: 5px; font-weight: 300; }
+
+    .qz-consent { margin-top: 8px; margin-bottom: 4px; }
+    .qz-consent-label { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; font-size: 12px; color: var(--ts); line-height: 1.6; font-weight: 300; }
+    .qz-consent-label input[type=checkbox] { margin-top: 2px; width: 16px; height: 16px; flex-shrink: 0; accent-color: var(--gd); cursor: pointer; }
+    .qz-consent-label a { color: var(--gd); text-decoration: underline; }
+
+    .report-share { background: var(--g100); border-radius: var(--rm); padding: 20px 22px; margin-top: 24px; text-align: center; }
+    .report-share p { font-size: 13px; color: var(--ts); margin-bottom: 12px; font-weight: 300; }
+    .report-share-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+    .roadmap-list { display: flex; flex-direction: column; gap: 14px; margin-top: 14px; }
+    .roadmap-item { display: flex; gap: 14px; align-items: flex-start; }
+    .roadmap-num { width: 26px; height: 26px; min-width: 26px; background: var(--gd); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; font-family: var(--font-head); margin-top: 1px; }
+    .roadmap-item b { display: block; font-size: 13px; color: var(--tm); margin-bottom: 3px; font-weight: 600; }
+    .roadmap-item p { font-size: 13px; color: var(--ts); line-height: 1.6; font-weight: 300; margin: 0; }
+
+    .report-pdf-cta { background: var(--gbg); border-radius: var(--rm); padding: 18px 20px; margin-top: 20px; display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+    .report-pdf-cta-text { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--gd); font-weight: 500; }
+    .report-pdf-cta-text i { font-size: 20px; }
+
+    /* ── REPORT ── */
+    .report-teaser { background: linear-gradient(135deg, var(--gd) 0%, #064537 100%); color: #fff; border-radius: var(--rl); padding: 28px 26px; margin-bottom: 24px; }
+    .report-teaser-label { font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--gl); margin-bottom: 10px; }
+    .report-teaser-text { font-size: 16px; line-height: 1.6; font-weight: 400; }
+    .report-teaser-text b { color: var(--gl); }
+
+    .report-section { margin-bottom: 22px; }
+    .report-section-label { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--g400); margin-bottom: 10px; }
+    .report-section p { font-size: 14px; color: var(--ts); line-height: 1.75; font-weight: 300; }
+    .report-section p b { color: var(--tm); font-weight: 500; }
+
+    .report-cat { border: 1px solid var(--b); border-radius: var(--rm); padding: 18px 20px; margin-bottom: 12px; }
+    .report-cat-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .semaforo { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .semaforo.green { background: #1D9E75; }
+    .semaforo.yellow { background: #E0A100; }
+    .report-cat-name { font-family: var(--font-head); font-size: 14px; font-weight: 600; }
+    .report-cat p { font-size: 13px; color: var(--ts); line-height: 1.65; font-weight: 300; }
+
+    .report-intuition { background: var(--gbg); border-left: 3px solid var(--gd); border-radius: 0 var(--r) var(--r) 0; padding: 16px 20px; font-size: 13px; color: var(--tm); line-height: 1.7; font-style: italic; }
+
+    .report-gap { background: var(--g100); border: 1px dashed var(--g400); border-radius: var(--rm); padding: 18px 20px; font-size: 13px; color: var(--ts); line-height: 1.7; }
+    .report-gap ul { margin: 10px 0 0 18px; }
+    .report-gap li { margin-bottom: 4px; }
+
+    .report-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    .report-disclaimer { font-size: 11px; color: var(--th); margin-top: 20px; line-height: 1.6; font-weight: 300; }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width: 768px) {
+      .hero-stats { grid-template-columns: 1fr 1fr; }
+      .cards { grid-template-columns: 1fr; }
+      .field-row { grid-template-columns: 1fr; }
+      .form-wrap { padding: 24px 18px; }
+      .qz-branch-cards { grid-template-columns: 1fr; }
+      .nav-links a:not(.nav-cta):not(.lang-btn-wrap) { display: none; }
+    }
+    @media(max-width: 480px) {
+      .hero-stats { grid-template-columns: 1fr; }
+      .hero-btns, .cta-btns, .report-cta { flex-direction: column; }
+      .lang-toggle { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon">
+      <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <line x1="8" y1="8" x2="24" y2="24" stroke="#5DCAA5" stroke-width="4" stroke-linecap="round"/>
+        <line x1="24" y1="8" x2="8" y2="24" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span class="nav-logo-wordmark">MetaX<span class="x">Terra</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#usos" data-es="Qué buscamos" data-en="What we seek">Qué buscamos</a>
+    <a href="#como-funciona" data-es="Cómo funciona" data-en="How it works">Cómo funciona</a>
+    <a href="#cuestionario" class="nav-cta" data-es="Evaluar terreno" data-en="Submit land">
+      <i class="ti ti-map-pin" style="font-size:14px"></i>
+      <span>Evaluar terreno</span>
+    </a>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('es')">ES</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-accent"></div>
+  <a href="https://www.metaxium.com" class="metaxium-badge" target="_blank" rel="noopener">
+    <div class="badge-icon">
+      <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <line x1="5" y1="5" x2="15" y2="15" stroke="#5B8DEF" stroke-width="2.8" stroke-linecap="round"/>
+        <line x1="15" y1="5" x2="5" y2="15" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span>Parte de <b>Meta<b style="color:#5B8DEF">X</b>ium</b> Group</span>
+  </a>
+  <div class="hero-tag">
+    <i class="ti ti-bolt" style="font-size:11px"></i>
+    <span data-es="Para propietarios de terrenos · México" data-en="For landowners · Mexico">Para propietarios de terrenos · México</span>
+  </div>
+  <h1 data-es="Entiende tu terreno.<br>Decide con <em>claridad</em>." data-en="Understand your land.<br>Decide with <em>clarity</em>.">
+    Entiende tu terreno.<br>Decide con <em>claridad</em>.
+  </h1>
+  <p class="hero-sub" data-es="Muchos propietarios no saben realmente qué pueden hacer con su terreno. Te ayudamos a entenderlo con un análisis claro y gratuito — en menos de 5 minutos." data-en="Many landowners don't really know what they can do with their land. We help you understand it with a clear, free analysis — in under 5 minutes.">
+    Muchos propietarios no saben realmente qué pueden hacer con su terreno. Te ayudamos a entenderlo con un análisis claro y gratuito — en menos de 5 minutos.
+  </p>
+  <div class="hero-btns">
+    <a href="#cuestionario" class="btn-primary">
+      <i class="ti ti-map-pin"></i>
+      <span data-es="Analizar mi terreno" data-en="Analyze my land">Analizar mi terreno</span>
+    </a>
+    <a href="#contacto" class="btn-ghost">
+      <i class="ti ti-users"></i>
+      <span data-es="Soy desarrollador" data-en="I'm a developer">Soy desarrollador</span>
+    </a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="num">6</span>
+      <span class="lbl" data-es="Categorías de uso evaluadas" data-en="Use categories evaluated">Categorías de uso evaluadas</span>
+    </div>
+    <div class="hero-stat">
+      <span class="num">100%</span>
+      <span class="lbl" data-es="Análisis gratuito" data-en="Free analysis">Análisis gratuito</span>
+    </div>
+    <div class="hero-stat">
+      <span class="num">5 min</span>
+      <span class="lbl" data-es="Tiempo estimado" data-en="Estimated time">Tiempo estimado</span>
+    </div>
+  </div>
+</section>
+
+<!-- USOS -->
+<section id="usos">
+  <div class="section-label" data-es="La realidad del propietario" data-en="The landowner's reality">La realidad del propietario</div>
+  <h2 data-es="Muchos no saben qué pueden hacer con su terreno" data-en="Many don't know what they can do with their land">Muchos no saben qué pueden hacer con su terreno</h2>
+  <p data-es="La información está repartida entre catastro, normativa eléctrica, mapas técnicos y datos de mercado difíciles de interpretar. Nosotros la reunimos por ti y te damos una visión clara de las posibilidades reales de tu predio — en menos de 5 minutos." data-en="Information is scattered across land registries, energy regulation, technical maps and market data that's hard to interpret. We gather it for you and give you a clear view of your land's real possibilities — in under 5 minutes.">
+    La información está repartida entre catastro, normativa eléctrica, mapas técnicos y datos de mercado difíciles de interpretar. Nosotros la reunimos por ti y te damos una visión clara de las posibilidades reales de tu predio — en menos de 5 minutos.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-server"></i></div>
+      <h3 data-es="Centros de datos" data-en="Data centers">Centros de datos</h3>
+      <p data-es="Demanda acelerada de suelo industrial con acceso a energía, conectividad y proximidad a industria. Uno de los sectores de más rápido crecimiento en México." data-en="Accelerating demand for industrial land with energy access, connectivity, and proximity to industry. One of Mexico's fastest-growing sectors.">Demanda acelerada de suelo industrial con acceso a energía, conectividad y proximidad a industria. Uno de los sectores de más rápido crecimiento en México.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-bolt"></i></div>
+      <h3 data-es="Energía e industria" data-en="Energy and industry">Energía e industria</h3>
+      <p data-es="Solar, almacenamiento BESS y generación eléctrica. Contratos de largo plazo con desarrolladores internacionales que necesitan terrenos estratégicos." data-en="Solar, BESS storage, and power generation. Long-term contracts with international developers needing strategic land.">Solar, almacenamiento BESS y generación eléctrica. Contratos de largo plazo con desarrolladores internacionales que necesitan terrenos estratégicos.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-building-factory"></i></div>
+      <h3 data-es="Manufactura avanzada" data-en="Advanced manufacturing">Manufactura avanzada</h3>
+      <p data-es="Nearshoring y manufactura de alto consumo eléctrico. Empresas americanas y asiáticas buscando superficie industrial en México con infraestructura garantizada." data-en="Nearshoring and high-power manufacturing. American and Asian companies seeking industrial land in Mexico with guaranteed infrastructure.">Nearshoring y manufactura de alto consumo eléctrico. Empresas americanas y asiáticas buscando superficie industrial en México con infraestructura garantizada.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-home"></i></div>
+      <h3 data-es="Desarrollo inmobiliario" data-en="Real estate development">Desarrollo inmobiliario</h3>
+      <p data-es="Terrenos cerca de zonas urbanas en expansión, atractivos para desarrolladores residenciales y comerciales." data-en="Land near expanding urban areas, attractive to residential and commercial developers.">Terrenos cerca de zonas urbanas en expansión, atractivos para desarrolladores residenciales y comerciales.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-plant-2"></i></div>
+      <h3 data-es="Uso agrícola" data-en="Agricultural use">Uso agrícola</h3>
+      <p data-es="Si no hay encaje en infraestructura, tu terreno mantiene viabilidad para uso agrícola o pecuario tradicional." data-en="If there's no fit for infrastructure, your land remains viable for traditional agricultural or livestock use.">Si no hay encaje en infraestructura, tu terreno mantiene viabilidad para uso agrícola o pecuario tradicional.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="ti ti-help-circle"></i></div>
+      <h3 data-es="¿Algo distinto?" data-en="Something else?">¿Algo distinto?</h3>
+      <p data-es="Si tienes otra idea para tu terreno, cuéntanosla — el análisis se adapta a lo que tú ya tienes en mente." data-en="If you have another idea for your land, tell us — the analysis adapts to what you already have in mind.">Si tienes otra idea para tu terreno, cuéntanosla — el análisis se adapta a lo que tú ya tienes en mente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section id="como-funciona" class="section-alt">
+  <div class="section-label" data-es="Proceso" data-en="Process">Proceso</div>
+  <h2 data-es="Análisis claro, sin compromiso" data-en="Clear analysis, no strings attached">Análisis claro, sin compromiso</h2>
+  <p data-es="No pedimos documentación legal en esta etapa. Solo información básica — y a cambio recibes un análisis inmediato de tu terreno." data-en="No legal documentation required at this stage. Just basic information — in exchange you get an immediate analysis of your land.">
+    No pedimos documentación legal en esta etapa. Solo información básica — y a cambio recibes un análisis inmediato de tu terreno.
+  </p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>
+        <h4 data-es="Respondes algunas preguntas — 5 minutos" data-en="Answer a few questions — 5 minutes">Respondes algunas preguntas — 5 minutos</h4>
+        <p data-es="El cuestionario se adapta a tus respuestas. Si ya tienes una idea de uso, te preguntamos solo lo relevante para esa idea." data-en="The questionnaire adapts to your answers. If you already have a use in mind, we only ask what's relevant to that idea.">El cuestionario se adapta a tus respuestas. Si ya tienes una idea de uso, te preguntamos solo lo relevante para esa idea.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>
+        <h4 data-es="Recibes tu análisis al instante" data-en="Get your analysis instantly">Recibes tu análisis al instante</h4>
+        <p data-es="Un informe personalizado con el potencial de tu terreno en distintas categorías, contexto de mercado y cifras concretas — en pantalla y por correo." data-en="A personalized report with your land's potential across categories, market context and concrete figures — on screen and by email.">Un informe personalizado con el potencial de tu terreno en distintas categorías, contexto de mercado y cifras concretas — en pantalla y por correo.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>
+        <h4 data-es="Amplías información cuando quieras" data-en="Add more information whenever you want">Amplías información cuando quieras</h4>
+        <p data-es="Tu informe mejora con más datos. Puedes volver cuando quieras a completar más y recibir una versión actualizada." data-en="Your report improves with more data. You can come back anytime to add more and get an updated version.">Tu informe mejora con más datos. Puedes volver cuando quieras a completar más y recibir una versión actualizada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CUESTIONARIO -->
+<section id="cuestionario">
+  <div class="section-label" data-es="Análisis de tu terreno" data-en="Land analysis">Análisis de tu terreno</div>
+  <h2 data-es="Cuéntanos sobre tu predio" data-en="Tell us about your land">Cuéntanos sobre tu predio</h2>
+  <p data-es="El cuestionario se adapta a tus respuestas — no son las mismas preguntas para todos. Al final recibes un análisis personalizado, gratuito y sin compromiso." data-en="The questionnaire adapts to your answers — not the same questions for everyone. At the end you get a personalized, free, no-commitment analysis.">
+    El cuestionario se adapta a tus respuestas — no son las mismas preguntas para todos. Al final recibes un análisis personalizado, gratuito y sin compromiso.
+  </p>
+  <div class="badges">
+    <div class="badge"><i class="ti ti-lock"></i> <span data-es="Confidencial" data-en="Confidential">Confidencial</span></div>
+    <div class="badge"><i class="ti ti-clock"></i> <span data-es="5 minutos" data-en="5 minutes">5 minutos</span></div>
+    <div class="badge"><i class="ti ti-sparkles"></i> <span data-es="Análisis instantáneo" data-en="Instant analysis">Análisis instantáneo</span></div>
+  </div>
+
+  <div class="form-wrap" id="qz-wrap">
+
+    <!-- ════════ STEP 0 — BRANCH ════════ -->
+    <div class="qz-step visible" id="qz-step-0">
+      <h3 data-es="¿Ya tienes una idea de para qué podría servir tu terreno?" data-en="Do you already have an idea of what your land could be used for?">¿Ya tienes una idea de para qué podría servir tu terreno?</h3>
+      <p class="step-desc" data-es="No te preocupes si no estás seguro — te ayudamos a descubrirlo." data-en="Don't worry if you're not sure — we'll help you figure it out.">No te preocupes si no estás seguro — te ayudamos a descubrirlo.</p>
+      <div class="qz-branch-cards">
+        <div class="qz-branch-card" onclick="qzBranch('A')">
+          <div class="qz-bc-icon"><i class="ti ti-bulb"></i></div>
+          <h4 data-es="Sí, tengo una idea" data-en="Yes, I have an idea">Sí, tengo una idea</h4>
+          <p data-es="Ya pensé en algún uso posible para mi terreno" data-en="I already thought of a possible use for my land">Ya pensé en algún uso posible para mi terreno</p>
+        </div>
+        <div class="qz-branch-card" onclick="qzBranch('B')">
+          <div class="qz-bc-icon"><i class="ti ti-compass"></i></div>
+          <h4 data-es="No estoy seguro" data-en="I'm not sure">No estoy seguro</h4>
+          <p data-es="Quiero que me orienten sobre las opciones" data-en="I want to be guided through the options">Quiero que me orienten sobre las opciones</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════ STEP A1 — WHICH IDEA ════════ -->
+    <div class="qz-step" id="qz-step-a1">
+      <h3 data-es="¿Cuál es tu idea?" data-en="What's your idea?">¿Cuál es tu idea?</h3>
+      <p class="step-desc" data-es="Así solo te preguntamos lo que es relevante para tu caso." data-en="This way we only ask what's relevant to your case.">Así solo te preguntamos lo que es relevante para tu caso.</p>
+      <div class="chips chips-lg" id="qz-idea">
+        <div class="chip" onclick="qzPickIdea(this,'energia')" data-es="Energía (solar / eólica)" data-en="Energy (solar / wind)">Energía (solar / eólica)</div>
+        <div class="chip" onclick="qzPickIdea(this,'datacenter')" data-es="Centro de datos" data-en="Data center">Centro de datos</div>
+        <div class="chip" onclick="qzPickIdea(this,'industrial')" data-es="Uso industrial / nearshoring" data-en="Industrial / nearshoring">Uso industrial / nearshoring</div>
+        <div class="chip" onclick="qzPickIdea(this,'realestate')" data-es="Desarrollo inmobiliario" data-en="Real estate development">Desarrollo inmobiliario</div>
+        <div class="chip" onclick="qzPickIdea(this,'agricola')" data-es="Uso agrícola" data-en="Agricultural use">Uso agrícola</div>
+        <div class="chip" onclick="qzPickIdea(this,'otro')" data-es="Otra idea" data-en="Another idea">Otra idea</div>
+      </div>
+      <div class="field" id="qz-otro-field" style="display:none">
+        <label data-es="Cuéntanos tu idea" data-en="Tell us your idea">Cuéntanos tu idea</label>
+        <input type="text" id="qz-otro-text" data-ph-es="Describe brevemente tu idea" data-ph-en="Briefly describe your idea" placeholder="Describe brevemente tu idea"/>
+      </div>
+    </div>
+
+    <!-- ════════ STEP A2 / B1 — BASICS (superficie, estado, municipio) ════════ -->
+    <div class="qz-step" id="qz-step-basics">
+      <h3 data-es="Lo esencial de tu terreno" data-en="The essentials about your land">Lo esencial de tu terreno</h3>
+      <p class="step-desc" data-es="Estos datos los necesitamos siempre, sin importar el uso." data-en="We always need this information, regardless of the use.">Estos datos los necesitamos siempre, sin importar el uso.</p>
+      <div class="field-row">
+        <div class="field">
+          <label data-es="Superficie aproximada (hectáreas) *" data-en="Approximate area (hectares) *">Superficie aproximada (hectáreas) *</label>
+          <input type="number" id="qz-sup" data-ph-es="Ej. 25" data-ph-en="E.g. 25" placeholder="Ej. 25" min="0.1" step="0.1"/>
+        </div>
+        <div class="field">
+          <label data-es="Estado *" data-en="State *">Estado *</label>
+          <select id="qz-estado">
+            <option value="" data-es="Selecciona…" data-en="Select…">Selecciona…</option>
+            <option>Sonora</option><option>Chihuahua</option><option>Baja California</option>
+            <option>Baja California Sur</option><option>Coahuila</option><option>Nuevo León</option>
+            <option>Tamaulipas</option><option>Sinaloa</option><option>Durango</option>
+            <option>Jalisco</option><option>Guanajuato</option><option>Querétaro</option>
+            <option>Aguascalientes</option><option>San Luis Potosí</option>
+            <option>Estado de México</option><option>Hidalgo</option><option>Puebla</option>
+            <option>Morelos</option><option>Tlaxcala</option><option>Yucatán</option>
+            <option>Campeche</option><option>Quintana Roo</option><option>Tabasco</option>
+            <option>Chiapas</option><option>Veracruz</option><option>Oaxaca</option>
+            <option>Guerrero</option><option>Michoacán</option><option>Colima</option>
+            <option>Nayarit</option><option>Zacatecas</option><option>Ciudad de México</option>
+            <option data-es="Otro" data-en="Other">Otro</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label data-es="Municipio / localidad" data-en="Municipality / locality">Municipio / localidad</label>
+        <input type="text" id="qz-municipio" data-ph-es="Ej. Hermosillo" data-ph-en="E.g. Hermosillo" placeholder="Ej. Hermosillo"/>
+      </div>
+      <div class="field" id="qz-usoactual-field">
+        <label data-es="Uso actual del predio" data-en="Current land use">Uso actual del predio</label>
+        <select id="qz-usoactual">
+          <option value="" data-es="Selecciona…" data-en="Select…">Selecciona…</option>
+          <option value="agricola" data-es="Agrícola" data-en="Agricultural">Agrícola</option>
+          <option value="pecuario" data-es="Pecuario / ganadero" data-en="Livestock / cattle">Pecuario / ganadero</option>
+          <option value="yermo" data-es="Yermo / sin uso" data-en="Vacant / unused">Yermo / sin uso</option>
+          <option value="ejidal" data-es="Ejidal" data-en="Ejidal (communal)">Ejidal</option>
+          <option value="industrial" data-es="Industrial / baldío" data-en="Industrial / brownfield">Industrial / baldío</option>
+          <option value="otro" data-es="Otro" data-en="Other">Otro</option>
+        </select>
+      </div>
+      <div class="field">
+        <label data-es="Coordenadas o enlace de Google Maps (opcional, pero muy útil)" data-en="Coordinates or Google Maps link (optional, but very useful)">Coordenadas o enlace de Google Maps (opcional, pero muy útil)</label>
+        <input type="text" id="qz-coord" data-ph-es="Ej. 29.08° N, 110.96° W — o pega un link de Google Maps" data-ph-en="E.g. 29.08° N, 110.96° W — or paste a Google Maps link" placeholder="Ej. 29.08° N, 110.96° W — o pega un link de Google Maps"/>
+        <p class="field-note" data-es="Si no la tienes a mano, puedes obtenerla manteniendo presionado el punto en Google Maps y copiando las coordenadas que aparecen." data-en="If you don't have it handy, you can get it by long-pressing the point on Google Maps and copying the coordinates that appear.">Si no la tienes a mano, puedes obtenerla manteniendo presionado el punto en Google Maps y copiando las coordenadas que aparecen.</p>
+      </div>
+    </div>
+
+    <!-- ════════ STEP — INFRAESTRUCTURA (subestacion, fibra, carretera) ════════ -->
+    <div class="qz-step" id="qz-step-infra">
+      <h3 data-es="Infraestructura cercana" data-en="Nearby infrastructure">Infraestructura cercana</h3>
+      <p class="step-desc" data-es="No necesitas datos exactos — tu mejor estimación es suficiente." data-en="You don't need exact data — your best estimate is enough.">No necesitas datos exactos — tu mejor estimación es suficiente.</p>
+      <div class="field" id="qz-subestacion-field">
+        <label data-es="¿Hay subestación eléctrica o línea de transmisión cerca? *" data-en="Is there an electrical substation or transmission line nearby? *">¿Hay subestación eléctrica o línea de transmisión cerca? *</label>
+        <div class="chips" id="qz-sub">
+          <div class="chip" onclick="qzPick(this,'sub','close')" data-es="Sí, a menos de 10 km" data-en="Yes, within 10 km">Sí, a menos de 10 km</div>
+          <div class="chip" onclick="qzPick(this,'sub','mid')" data-es="Sí, entre 10 y 30 km" data-en="Yes, 10–30 km away">Sí, entre 10 y 30 km</div>
+          <div class="chip" onclick="qzPick(this,'sub','unsure')" data-es="No lo sé con certeza" data-en="Not sure">No lo sé con certeza</div>
+          <div class="chip" onclick="qzPick(this,'sub','none')" data-es="No hay" data-en="None nearby">No hay</div>
+        </div>
+      </div>
+      <div class="field" id="qz-fibra-field">
+        <label data-es="¿Hay fibra óptica o telecomunicaciones cerca?" data-en="Is there fiber optic or telecom infrastructure nearby?">¿Hay fibra óptica o telecomunicaciones cerca?</label>
+        <div class="chips" id="qz-fibra">
+          <div class="chip" onclick="qzPick(this,'fibra','yes')" data-es="Sí" data-en="Yes">Sí</div>
+          <div class="chip" onclick="qzPick(this,'fibra','unsure')" data-es="No lo sé" data-en="Not sure">No lo sé</div>
+          <div class="chip" onclick="qzPick(this,'fibra','no')" data-es="No" data-en="No">No</div>
+        </div>
+      </div>
+      <div class="field" id="qz-carretera-field">
+        <label data-es="Acceso por carretera" data-en="Road access">Acceso por carretera</label>
+        <div class="chips" id="qz-road">
+          <div class="chip" onclick="qzPick(this,'road','paved')" data-es="Carretera pavimentada directa" data-en="Direct paved road">Carretera pavimentada directa</div>
+          <div class="chip" onclick="qzPick(this,'road','dirt')" data-es="Terracería / camino de acceso" data-en="Dirt road / access track">Terracería / camino de acceso</div>
+          <div class="chip" onclick="qzPick(this,'road','none')" data-es="Sin acceso formal" data-en="No formal access">Sin acceso formal</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════ STEP — CONTEXTO FISICO (topografia, agua, cercania urbana) ════════ -->
+    <div class="qz-step" id="qz-step-fisico">
+      <h3 data-es="Contexto físico" data-en="Physical context">Contexto físico</h3>
+      <p class="step-desc" data-es="Últimas preguntas de este bloque." data-en="Last questions in this block.">Últimas preguntas de este bloque.</p>
+      <div class="field" id="qz-topo-field">
+        <label data-es="Topografía general" data-en="General topography">Topografía general</label>
+        <div class="chips" id="qz-topo">
+          <div class="chip" onclick="qzPick(this,'topo','flat')" data-es="Plano" data-en="Flat">Plano</div>
+          <div class="chip" onclick="qzPick(this,'topo','semiflat')" data-es="Semiplano / ligera pendiente" data-en="Semi-flat / gentle slope">Semiplano / ligera pendiente</div>
+          <div class="chip" onclick="qzPick(this,'topo','sloped')" data-es="Con pendientes o irregularidades" data-en="Sloped or irregular">Con pendientes o irregularidades</div>
+        </div>
+      </div>
+      <div class="field" id="qz-agua-field">
+        <label data-es="¿Cuenta con fuente de agua?" data-en="Is water available on site?">¿Cuenta con fuente de agua?</label>
+        <div class="chips" id="qz-agua">
+          <div class="chip" onclick="qzPick(this,'agua','yes')" data-es="Sí" data-en="Yes">Sí</div>
+          <div class="chip" onclick="qzPick(this,'agua','no')" data-es="No" data-en="No">No</div>
+          <div class="chip" onclick="qzPick(this,'agua','unsure')" data-es="No sé" data-en="Not sure">No sé</div>
+        </div>
+      </div>
+      <div class="field" id="qz-urbano-field">
+        <label data-es="¿A qué distancia está la zona urbana o ciudad principal más cercana?" data-en="How far is the nearest urban area or main city?">¿A qué distancia está la zona urbana o ciudad principal más cercana?</label>
+        <div class="chips" id="qz-urbano">
+          <div class="chip" onclick="qzPick(this,'urbano','close')" data-es="Menos de 10 km" data-en="Less than 10 km">Menos de 10 km</div>
+          <div class="chip" onclick="qzPick(this,'urbano','mid')" data-es="Entre 10 y 50 km" data-en="10–50 km">Entre 10 y 50 km</div>
+          <div class="chip" onclick="qzPick(this,'urbano','far')" data-es="Más de 50 km" data-en="More than 50 km">Más de 50 km</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════ STEP — INTUICION + PRECIO (siempre, opcional) ════════ -->
+    <div class="qz-step" id="qz-step-intuicion">
+      <h3 data-es="Tu visión sobre el terreno" data-en="Your view on the land">Tu visión sobre el terreno</h3>
+      <p class="step-desc" data-es="Esto es opcional, pero suele ser justo la información que más nos ayuda." data-en="This is optional, but it's often exactly the information that helps us most.">Esto es opcional, pero suele ser justo la información que más nos ayuda.</p>
+      <div class="field">
+        <label data-es="¿Tienes alguna intuición sobre tu terreno que creas que deberíamos saber? (opcional)" data-en="Do you have any intuition about your land that we should know? (optional)">¿Tienes alguna intuición sobre tu terreno que creas que deberíamos saber? (opcional)</label>
+        <textarea id="qz-intuicion" data-ph-es="Ej. un vecino vendió para un proyecto similar, hay planes de una carretera nueva, etc." data-ph-en="E.g. a neighbor sold for a similar project, there are plans for a new road, etc." placeholder="Ej. un vecino vendió para un proyecto similar, hay planes de una carretera nueva, etc."></textarea>
+      </div>
+      <div class="field">
+        <label data-es="¿Tienes alguna referencia de precio o lo que esperarías por tu terreno? (opcional)" data-en="Do you have a price reference or expectation for your land? (optional)">¿Tienes alguna referencia de precio o lo que esperarías por tu terreno? (opcional)</label>
+        <input type="text" id="qz-precio" data-ph-es="Ej. $5,000,000 MXN, o 'no tengo idea'" data-ph-en="E.g. $5,000,000 MXN, or 'no idea'" placeholder="Ej. $5,000,000 MXN, o 'no tengo idea'"/>
+        <p class="field-note" data-es="Esta información nos ayuda a entender tus expectativas — no es un compromiso de ninguna de las dos partes." data-en="This helps us understand your expectations — it's not a commitment from either party.">Esta información nos ayuda a entender tus expectativas — no es un compromiso de ninguna de las dos partes.</p>
+      </div>
+    </div>
+
+    <!-- ════════ STEP — CONTACTO ════════ -->
+    <div class="qz-step" id="qz-step-contacto">
+      <h3 data-es="¿Con quién hablamos?" data-en="Who are we talking to?">¿Con quién hablamos?</h3>
+      <p class="step-desc" data-es="Para enviarte tu análisis y, si quieres, dar seguimiento." data-en="To send you your analysis and, if you want, follow up.">Para enviarte tu análisis y, si quieres, dar seguimiento.</p>
+      <div class="field-row">
+        <div class="field">
+          <label data-es="Nombre completo *" data-en="Full name *">Nombre completo *</label>
+          <input type="text" id="qz-nombre" data-ph-es="Ej. Carlos García" data-ph-en="E.g. Carlos García" placeholder="Ej. Carlos García"/>
+        </div>
+        <div class="field">
+          <label data-es="Teléfono / WhatsApp *" data-en="Phone / WhatsApp *">Teléfono / WhatsApp *</label>
+          <input type="tel" id="qz-tel" placeholder="+52 55 XXXX XXXX"/>
+        </div>
+      </div>
+      <div class="field">
+        <label data-es="Correo electrónico *" data-en="Email address *">Correo electrónico *</label>
+        <input type="email" id="qz-email" placeholder="nombre@correo.com"/>
+      </div>
+      <div class="field">
+        <label data-es="¿Eres el propietario o actúas en representación?" data-en="Are you the owner or acting on behalf of someone?">¿Eres el propietario o actúas en representación?</label>
+        <div class="chips" id="qz-rol">
+          <div class="chip" onclick="qzPick(this,'rol','owner')" data-es="Propietario directo" data-en="Direct owner">Propietario directo</div>
+          <div class="chip" onclick="qzPick(this,'rol','rep')" data-es="Apoderado / representante" data-en="Legal representative">Apoderado / representante</div>
+          <div class="chip" onclick="qzPick(this,'rol','broker')" data-es="Intermediario" data-en="Broker / intermediary">Intermediario</div>
+        </div>
+      </div>
+      <div class="qz-consent">
+        <label class="qz-consent-label">
+          <input type="checkbox" id="qz-consent"/>
+          <span data-es='He leído y acepto el <a href="aviso-privacidad.html" target="_blank">Aviso de Privacidad</a>. Entiendo que mi información será utilizada para generar este análisis y que el equipo de MetaXTerra podrá contactarme. *' data-en='I have read and accept the <a href="aviso-privacidad.html" target="_blank">Privacy Notice</a>. I understand my information will be used to generate this analysis and that the MetaXTerra team may contact me. *'>He leído y acepto el <a href="aviso-privacidad.html" target="_blank">Aviso de Privacidad</a>. Entiendo que mi información será utilizada para generar este análisis y que el equipo de MetaXTerra podrá contactarme. *</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- ════════ REPORT — instant on-screen result ════════ -->
+    <div class="qz-step" id="qz-step-report">
+      <div id="qz-report-content"></div>
+    </div>
+
+    <!-- form footer / nav -->
+    <div class="qz-progress" id="qz-progress"></div>
+    <div class="form-footer" id="qz-footer" style="display:none">
+      <button class="btn-back" id="qz-btn-back" onclick="qzPrev()" style="visibility:hidden">
+        <i class="ti ti-arrow-left"></i> <span data-es="Anterior" data-en="Back">Anterior</span>
+      </button>
+      <button class="btn-next" id="qz-btn-next" onclick="qzNext()">
+        <span data-es="Siguiente" data-en="Next">Siguiente</span> <i class="ti ti-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA DESARROLLADORES -->
+<section id="contacto" class="cta-dark">
+  <div class="section-label" data-es="¿Eres desarrollador o inversor?" data-en="Developer or investor?">¿Eres desarrollador o inversor?</div>
+  <h2 data-es="Accede a oportunidades de terrenos en México" data-en="Access land opportunities across Mexico">Accede a oportunidades de terrenos en México</h2>
+  <p data-es="Trabajamos con desarrolladores de centros de datos, energía renovable e industria intensiva. Si buscas sitios estratégicos en México con criterios técnicos específicos, hablemos." data-en="We work with data center developers, renewable energy companies, and heavy industry. If you're looking for strategic sites in Mexico with specific technical requirements, let's talk.">
+    Trabajamos con desarrolladores de centros de datos, energía renovable e industria intensiva. Si buscas sitios estratégicos en México con criterios técnicos específicos, hablemos.
+  </p>
+  <div class="cta-btns">
+    <a href="mailto:juan.abarca@jsa.global" class="btn-white">
+      <i class="ti ti-mail"></i>
+      <span data-es="Contactar al equipo" data-en="Contact the team">Contactar al equipo</span>
+    </a>
+    <a href="#usos" class="btn-outline-white">
+      <i class="ti ti-file-description"></i>
+      <span data-es="Ver qué buscamos" data-en="See what we look for">Ver qué buscamos</span>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="#" class="footer-logo">
+        <div class="footer-logo-icon">
+          <svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+            <line x1="7" y1="7" x2="21" y2="21" stroke="#5DCAA5" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="21" y1="7" x2="7" y2="21" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="footer-logo-wordmark">MetaX<span class="x">Terra</span></span>
+      </a>
+      <p class="footer-tagline" data-es="Donde la tierra se convierte en infraestructura crítica · México" data-en="Where land becomes critical infrastructure · Mexico">Donde la tierra se convierte en infraestructura crítica · México</p>
+    </div>
+    <div class="footer-metaxium">
+      <span class="footer-metaxium-label" data-es="Parte del grupo" data-en="Part of the group">Parte del grupo</span>
+      <a href="https://www.metaxium.com" class="footer-metaxium-link" target="_blank" rel="noopener">
+        <div class="footer-metaxium-icon">
+          <svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+            <line x1="5" y1="5" x2="17" y2="17" stroke="#5B8DEF" stroke-width="3" stroke-linecap="round"/>
+            <line x1="17" y1="5" x2="5" y2="17" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="footer-metaxium-name">Meta<b>X</b>ium Group</span>
+      </a>
+      <p class="footer-metaxium-desc" data-es="Infraestructura digital · México" data-en="Digital infrastructure · Mexico">Infraestructura digital · México</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p data-es="© 2025 MetaXTerra · Toda la información es tratada con estricta confidencialidad" data-en="© 2025 MetaXTerra · All information handled with strict confidentiality">© 2025 MetaXTerra · Toda la información es tratada con estricta confidencialidad</p>
+    <div style="display:flex;gap:16px;align-items:center">
+      <a href="aviso-privacidad.html" data-es="Aviso de Privacidad" data-en="Privacy Notice">Aviso de Privacidad</a>
+      <a href="mailto:juan.abarca@jsa.global">juan.abarca@jsa.global</a>
+    </div>
+  </div>
+</footer>
+<script>
+/* ════════════════════════════════════════════════════════
+   METAXTERRA — ADAPTIVE QUESTIONNAIRE ENGINE
+   ════════════════════════════════════════════════════════ */
+
+var lang = 'es';
+var camino = null;       // 'A' or 'B'
+var idea = null;         // selected idea key in camino A
+var qzAnswers = {};      // collects all answers
+var qzStepOrder = [];    // dynamic step order based on branch
+var qzStepIndex = 0;
+
+/* ---------- LANGUAGE TOGGLE ---------- */
+function setLang(l){
+  lang=l;
+  document.documentElement.lang=l==='en'?'en':'es';
+  document.querySelectorAll('.lang-btn').forEach(function(b){b.classList.toggle('active',b.textContent.toLowerCase()===l);});
+  document.querySelectorAll('[data-'+l+']').forEach(function(el){
+    var val=el.getAttribute('data-'+l);
+    if(!val)return;
+    if(el.tagName==='INPUT'&&el.type!=='file'){el.placeholder=val;return;}
+    if(el.tagName==='TEXTAREA'){el.placeholder=val;return;}
+    if(el.tagName==='OPTION'){el.textContent=val;return;}
+    if(el.tagName==='INPUT'||el.tagName==='SELECT')return;
+    el.innerHTML=val;
+  });
+  document.querySelectorAll('[data-ph-'+l+']').forEach(function(el){el.placeholder=el.getAttribute('data-ph-'+l);});
+}
+
+/* ---------- CHIP SELECTION HELPERS ---------- */
+function qzPick(el, group, value){
+  el.parentNode.querySelectorAll('.chip').forEach(function(c){c.classList.remove('sel');});
+  el.classList.add('sel');
+  qzAnswers[group] = value;
+}
+
+function qzPickIdea(el, ideaKey){
+  document.querySelectorAll('#qz-idea .chip').forEach(function(c){c.classList.remove('sel');});
+  el.classList.add('sel');
+  idea = ideaKey;
+  qzAnswers.idea = ideaKey;
+  var otroField = document.getElementById('qz-otro-field');
+  otroField.style.display = (ideaKey === 'otro') ? 'block' : 'none';
+}
+
+/* ---------- BRANCH SELECTION (Step 0) ---------- */
+function qzBranch(letter){
+  camino = letter;
+  qzAnswers.camino = letter;
+  if(letter === 'A'){
+    qzStepOrder = ['qz-step-a1','qz-step-basics','qz-step-infra-dynamic','qz-step-fisico-dynamic','qz-step-intuicion','qz-step-contacto','qz-step-report'];
+  } else {
+    qzStepOrder = ['qz-step-basics','qz-step-infra','qz-step-fisico','qz-step-intuicion','qz-step-contacto','qz-step-report'];
+  }
+  qzStepIndex = 0;
+  qzGoToStep(qzStepOrder[0]);
+}
+
+/* ---------- DYNAMIC FIELD VISIBILITY FOR CAMINO A ---------- */
+/* In camino A, before showing qz-step-infra, we hide/show only the relevant fields based on idea */
+function qzPrepareInfraStep(){
+  var subF = document.getElementById('qz-subestacion-field');
+  var fibF = document.getElementById('qz-fibra-field');
+  var roadF = document.getElementById('qz-carretera-field');
+
+  if(camino === 'B'){
+    // show everything
+    subF.style.display='block'; fibF.style.display='block'; roadF.style.display='block';
+    return;
+  }
+  // camino A — only relevant fields per idea
+  var relevance = {
+    energia:    { sub:true,  fibra:false, road:false },
+    datacenter: { sub:true,  fibra:true,  road:true  },
+    industrial: { sub:false, fibra:false, road:true  },
+    realestate: { sub:false, fibra:false, road:true  },
+    agricola:   { sub:false, fibra:false, road:false },
+    otro:       { sub:true,  fibra:true,  road:true  }
+  };
+  var r = relevance[idea] || relevance.otro;
+  subF.style.display  = r.sub   ? 'block' : 'none';
+  fibF.style.display  = r.fibra ? 'block' : 'none';
+  roadF.style.display = r.road  ? 'block' : 'none';
+}
+
+function qzPrepareFisicoStep(){
+  var topoF = document.getElementById('qz-topo-field');
+  var aguaF = document.getElementById('qz-agua-field');
+  var urbanoF = document.getElementById('qz-urbano-field');
+
+  if(camino === 'B'){
+    topoF.style.display='block'; aguaF.style.display='block'; urbanoF.style.display='block';
+    return;
+  }
+  // camino A — only relevant fields per idea
+  var relevance = {
+    energia:    { topo:true,  agua:false, urbano:false },
+    datacenter: { topo:true,  agua:false, urbano:false },
+    industrial: { topo:false, agua:false, urbano:true  },
+    realestate: { topo:false, agua:false, urbano:true  },
+    agricola:   { topo:false, agua:true,  urbano:false },
+    otro:       { topo:true,  agua:true,  urbano:true  }
+  };
+  var r = relevance[idea] || relevance.otro;
+  topoF.style.display   = r.topo   ? 'block' : 'none';
+  aguaF.style.display   = r.agua   ? 'block' : 'none';
+  urbanoF.style.display = r.urbano ? 'block' : 'none';
+}
+
+/* ---------- NAVIGATION ---------- */
+function qzGoToStep(stepId){
+  document.querySelectorAll('.qz-step').forEach(function(s){s.classList.remove('visible');});
+  if(stepId === 'qz-step-infra-dynamic'){
+    qzPrepareInfraStep();
+    document.getElementById('qz-step-infra').classList.add('visible');
+  } else if(stepId === 'qz-step-fisico-dynamic'){
+    qzPrepareFisicoStep();
+    document.getElementById('qz-step-fisico').classList.add('visible');
+  } else {
+    document.getElementById(stepId).classList.add('visible');
+  }
+  qzUpdateProgress();
+  qzUpdateFooter();
+  document.getElementById('qz-wrap').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+function qzUpdateProgress(){
+  var bar = document.getElementById('qz-progress');
+  if(!bar) return;
+  var total = qzStepOrder.length - 1; // exclude report step from progress count
+  var current = qzStepIndex;
+  var pct = Math.min(100, Math.round((current/total)*100));
+  bar.innerHTML = '<div style="height:4px;background:var(--g200);border-radius:2px;overflow:hidden;margin-bottom:18px;"><div style="height:100%;width:'+pct+'%;background:var(--gm);transition:width .3s;"></div></div>';
+}
+
+function qzUpdateFooter(){
+  var backBtn = document.getElementById('qz-btn-back');
+  var nextBtn = document.getElementById('qz-btn-next');
+  var currentStepId = qzStepOrder[qzStepIndex];
+
+  backBtn.style.visibility = qzStepIndex===0 ? 'hidden' : 'visible';
+
+  if(currentStepId === 'qz-step-report'){
+    document.getElementById('qz-footer').style.display = 'none';
+  } else {
+    document.getElementById('qz-footer').style.display = 'flex';
+    var isLast = (qzStepIndex === qzStepOrder.length - 2); // step before report
+    var icon = isLast ? '<i class="ti ti-sparkles"></i>' : '<i class="ti ti-arrow-right"></i>';
+    var txt = isLast ? (lang==='es'?'Ver mi análisis':'See my analysis') : (lang==='es'?'Siguiente':'Next');
+    nextBtn.innerHTML = '<span>'+txt+'</span> '+icon;
+    nextBtn.disabled = false;
+  }
+}
+
+function qzValidateCurrentStep(){
+  var currentStepId = qzStepOrder[qzStepIndex];
+  if(currentStepId === 'qz-step-0'){
+    if(!camino){ qzAlert('Por favor selecciona una opción.','Please select an option.'); return false; }
+  }
+  if(currentStepId === 'qz-step-a1'){
+    if(!idea){ qzAlert('Por favor selecciona una idea.','Please select an idea.'); return false; }
+    if(idea==='otro' && !document.getElementById('qz-otro-text').value.trim()){
+      qzAlert('Por favor describe brevemente tu idea.','Please briefly describe your idea.'); return false;
+    }
+  }
+  if(currentStepId === 'qz-step-basics'){
+    var sup = document.getElementById('qz-sup').value;
+    var estado = document.getElementById('qz-estado').value;
+    if(!sup || !estado){ qzAlert('Por favor completa superficie y estado.','Please fill in area and state.'); return false; }
+    qzAnswers.superficie = parseFloat(sup);
+    qzAnswers.estado = estado;
+    qzAnswers.municipio = document.getElementById('qz-municipio').value.trim();
+    qzAnswers.usoActual = document.getElementById('qz-usoactual').value;
+    qzAnswers.coordenadas = document.getElementById('qz-coord').value.trim();
+  }
+  if(currentStepId === 'qz-step-infra-dynamic' || currentStepId === 'qz-step-infra'){
+    // pull whatever was set via qzPick into qzAnswers already done via qzPick (group 'sub','fibra','road')
+  }
+  if(currentStepId === 'qz-step-fisico' || currentStepId === 'qz-step-fisico-dynamic'){
+    // topo, agua, urbano already captured via qzPick
+  }
+  if(currentStepId === 'qz-step-contacto'){
+    var nombre = document.getElementById('qz-nombre').value.trim();
+    var tel = document.getElementById('qz-tel').value.trim();
+    var email = document.getElementById('qz-email').value.trim();
+    var consent = document.getElementById('qz-consent').checked;
+    if(!nombre || !tel || !email){ qzAlert('Por favor completa nombre, teléfono y correo.','Please fill in name, phone and email.'); return false; }
+    if(!consent){ qzAlert('Por favor acepta el Aviso de Privacidad para continuar.','Please accept the Privacy Notice to continue.'); return false; }
+    qzAnswers.nombre = nombre;
+    qzAnswers.tel = tel;
+    qzAnswers.email = email;
+  }
+  return true;
+}
+
+function qzAlert(es,en){ alert(lang==='es'?es:en); }
+
+function qzNext(){
+  if(!qzStepOrder.length) return; // safety guard: branch not yet chosen
+  if(!qzValidateCurrentStep()) return;
+
+  // capture free-text fields right before leaving relevant steps
+  var currentStepId = qzStepOrder[qzStepIndex];
+  if(currentStepId === 'qz-step-a1' && idea==='otro'){
+    qzAnswers.ideaOtroText = document.getElementById('qz-otro-text').value.trim();
+  }
+  if(currentStepId === 'qz-step-intuicion'){
+    qzAnswers.intuicion = document.getElementById('qz-intuicion').value.trim();
+    qzAnswers.precioRef = document.getElementById('qz-precio').value.trim();
+  }
+
+  if(qzStepIndex < qzStepOrder.length - 1){
+    qzStepIndex++;
+    var nextStepId = qzStepOrder[qzStepIndex];
+    if(nextStepId === 'qz-step-report'){
+      qzSubmitAndShowReport();
+    } else {
+      qzGoToStep(nextStepId);
+    }
+  }
+}
+
+function qzPrev(){
+  if(qzStepIndex > 0){
+    qzStepIndex--;
+    qzGoToStep(qzStepOrder[qzStepIndex]);
+  }
+}
+
+/* ════════════════════════════════════════════════════════
+   SCORING ENGINE — simple rule-based logic, 6 categories
+   ════════════════════════════════════════════════════════ */
+
+/* Estados con baja vocación agrícola estructural (desierto, escasez de agua) —
+   usado solo para bajar el piso de "agrícola" cuando además no hay agua ni uso agrícola previo.
+   Esto NO excluye el estado de otras categorías; solo afina el criterio agrícola. */
+var lowAgroStates = ['Sonora','Baja California','Baja California Sur','Coahuila','Chihuahua'];
+
+function qzScore(){
+  var a = qzAnswers;
+  var sup = a.superficie || 0;
+  var sub = a.sub || 'unsure';        // close, mid, unsure, none
+  var fibra = a.fibra || 'unsure';    // yes, unsure, no
+  var road = a.road || 'unsure';      // paved, dirt, none
+  var topo = a.topo || 'unsure';      // flat, semiflat, sloped
+  var agua = a.agua || 'unsure';      // yes, no, unsure
+  var urbano = a.urbano || 'unsure';  // close, mid, far
+  var usoActual = a.usoActual || '';
+  var estado = a.estado || '';
+
+  var scores = {};
+  var excluded = {}; // categories that don't apply at all — hidden from report entirely
+
+  /* ════ HARD EXCLUSION RULES — applied first, before any color scoring ════ */
+
+  // Energía a gran escala: requiere superficie mínima real para ser "utility-scale"
+  if(sup < 10){ excluded.energia = true; }
+
+  // Generación distribuida: rango razonable, por debajo es residencial, por encima ya es "gran escala"
+  if(sup < 0.5 || sup > 60){ excluded.distribuida = true; }
+
+  // Infraestructura digital: requiere un mínimo de superficie útil
+  if(sup < 1.5){ excluded.digital = true; }
+
+  // Industrial: requiere un mínimo de superficie para nave/parque industrial
+  if(sup < 1){ excluded.industrial = true; }
+
+  // Real estate: si está muy lejos de cualquier zona urbana, no aplica en el corto/medio plazo
+  if(urbano === 'far'){ excluded.realestate = true; }
+
+  // Agrícola: si el terreno es muy pequeño para agricultura comercial Y no tiene uso agrícola previo, baja prioridad
+  // (no se excluye del todo — el agrícola casi siempre es un "fallback" — pero se penaliza fuerte)
+
+  /* ════ COLOR SCORING — only for non-excluded categories ════ */
+
+  // 1. Energía a gran escala
+  if(!excluded.energia){
+    if(sup>=20 && (sub==='close'||sub==='mid') && (topo==='flat'||topo==='semiflat')){
+      scores.energia = 'green';
+    } else if(sup>=10 && (sub==='close'||sub==='mid'||topo==='flat'||topo==='unsure')){
+      scores.energia = 'yellow';
+    } else {
+      scores.energia = 'red';
+    }
+  }
+
+  // 2. Generación distribuida
+  if(!excluded.distribuida){
+    if(sup>=1 && sup<=20 && sub==='close'){
+      scores.distribuida = 'green';
+    } else if(sup>=0.5 && sup<=40 && (sub==='close'||sub==='mid')){
+      scores.distribuida = 'yellow';
+    } else {
+      scores.distribuida = 'red';
+    }
+  }
+
+  // 3. Infraestructura digital
+  if(!excluded.digital){
+    if(sub==='close' && fibra==='yes' && road==='paved'){
+      scores.digital = 'green';
+    } else if(sub==='close' && (fibra==='unsure'||road==='dirt')){
+      scores.digital = 'yellow';
+    } else if(sub==='mid' && fibra!=='no'){
+      scores.digital = 'yellow';
+    } else {
+      scores.digital = 'red';
+    }
+  }
+
+  // 4. Industrial / nearshoring
+  if(!excluded.industrial){
+    if(road==='paved' && (urbano==='close'||urbano==='mid')){
+      scores.industrial = 'green';
+    } else if(road==='paved' || urbano==='close'){
+      scores.industrial = 'yellow';
+    } else {
+      scores.industrial = 'red';
+    }
+  }
+
+  // 5. Real estate
+  if(!excluded.realestate){
+    if(urbano==='close'){
+      scores.realestate = 'green';
+    } else if(urbano==='mid'){
+      scores.realestate = 'yellow';
+    } else {
+      scores.realestate = 'red';
+    }
+  }
+
+  // 6. Agrícola — el único "fallback" real, pero con criterio honesto
+  var lowAgroState = lowAgroStates.indexOf(estado) !== -1;
+  var hasAgroHistory = (usoActual==='agricola' || usoActual==='pecuario');
+  if(agua==='yes' && hasAgroHistory){
+    scores.agricola = 'green';
+  } else if(agua==='yes' || hasAgroHistory){
+    scores.agricola = 'yellow';
+  } else if(lowAgroState && agua!=='yes' && !hasAgroHistory){
+    // Desert state, no water, no agro history — genuinely weak fit, but not hidden
+    scores.agricola = 'red';
+  } else {
+    scores.agricola = 'yellow';
+  }
+
+  scores._excluded = excluded; // keep track for transparency in the report
+  return scores;
+}
+
+function qzCategoryIsExcluded(scores, cat){
+  return scores._excluded && scores._excluded[cat];
+}
+
+function qzTopCategory(scores){
+  var order = ['energia','digital','distribuida','industrial','realestate','agricola'];
+  var weight = {green:3, yellow:2, red:1};
+  var best = null, bestScore = -1;
+  order.forEach(function(cat){
+    if(qzCategoryIsExcluded(scores, cat)) return; // never pick an excluded category as the top result
+    var w = weight[scores[cat]] || 0;
+    if(w > bestScore){ bestScore = w; best = cat; }
+  });
+  return best || 'agricola'; // agricola is the true floor — always a valid fallback
+}
+
+var catNames = {
+  es: { energia:'energía a gran escala', distribuida:'generación distribuida', digital:'infraestructura digital', industrial:'uso industrial', realestate:'desarrollo inmobiliario', agricola:'uso agrícola' },
+  en: { energia:'utility-scale energy', distribuida:'distributed generation', digital:'digital infrastructure', industrial:'industrial use', realestate:'real estate development', agricola:'agricultural use' }
+};
+
+var catLabel = {
+  es: { energia:'Energía a gran escala', distribuida:'Generación distribuida', digital:'Infraestructura digital', industrial:'Industrial / nearshoring', realestate:'Desarrollo inmobiliario', agricola:'Uso agrícola' },
+  en: { energia:'Utility-scale energy', distribuida:'Distributed generation', digital:'Digital infrastructure', industrial:'Industrial / nearshoring', realestate:'Real estate development', agricola:'Agricultural use' }
+};
+
+/* ════════════════════════════════════════════════════════
+   REPORT GENERATION — 4 layers
+   ════════════════════════════════════════════════════════ */
+
+function qzCalcMW(ha){ return { low: Math.round(ha/2*10)/10, high: Math.round(ha/1.5*10)/10 }; }
+function qzMWtoHomes(mw){ return Math.round(mw * 470); } // ~470 homes per MW solar, rough public reference
+function qzHaToDCkw(ha){ return Math.round(ha * 8); } // rough: 8 MW IT capacity per ha for a dense site, generic reference
+function qzHaToLots(ha){ return Math.round(ha * 10000 / 250); } // rough: 250m2 average lot
+
+function buildTeaser(scores, top){
+  var a = qzAnswers;
+  var sup = a.superficie;
+  var loc = (a.municipio ? a.municipio+', ' : '') + a.estado;
+  var subTxt = {close:lang==='es'?'subestación a menos de 10 km':'a substation within 10 km', mid:lang==='es'?'subestación entre 10 y 30 km':'a substation 10–30 km away', unsure:lang==='es'?'infraestructura eléctrica sin confirmar':'unconfirmed electrical infrastructure', none:lang==='es'?'sin subestación cercana':'no nearby substation'}[a.sub||'unsure'];
+  var topoTxt = {flat:lang==='es'?'topografía plana':'flat topography', semiflat:lang==='es'?'topografía semiplana':'semi-flat topography', sloped:lang==='es'?'topografía con pendientes':'sloped topography', unsure:lang==='es'?'topografía sin precisar':'unspecified topography'}[a.topo||'unsure'];
+  var level = scores[top]==='green' ? (lang==='es'?'alto':'high') : (lang==='es'?'medio':'medium');
+  var catName = catNames[lang][top];
+
+  if(lang==='es'){
+    return 'Tu terreno de <b>'+sup+' hectáreas</b> en <b>'+loc+'</b>, con '+subTxt+' y '+topoTxt+', presenta <b>potencial '+level+' en '+catName+'</b> — uno de los sectores con mayor demanda activa en México hoy.';
+  } else {
+    return 'Your <b>'+sup+'-hectare</b> plot in <b>'+loc+'</b>, with '+subTxt+' and '+topoTxt+', shows <b>'+level+' potential in '+catName+'</b> — one of the sectors with the strongest active demand in Mexico today.';
+  }
+}
+
+function buildMacroContext(){
+  if(lang==='es'){
+    return 'México está viviendo uno de los mayores ciclos de inversión en infraestructura de su historia reciente: más de <b>1,500 MW</b> de nueva capacidad de centros de datos buscada para 2030, con más de <b>$18,000 millones de dólares</b> de inversión proyectada; decenas de miles de MW adicionales de generación renovable en desarrollo; y una ola de nearshoring que ha desplazado más de <b>$35,000 millones de dólares</b> en inversión industrial hacia el país.';
+  } else {
+    return 'Mexico is living through one of the largest infrastructure investment cycles in its recent history: over <b>1,500 MW</b> of new data center capacity sought by 2030, with more than <b>$18 billion</b> in projected investment; tens of thousands of additional MW of renewable generation in development; and a nearshoring wave that has shifted over <b>$35 billion</b> in industrial investment into the country.';
+  }
+}
+
+var stateContext = {
+  'Sonora': { es:'Sonora concentra una de las mayores actividades del país en energía solar y nearshoring, impulsada por el Plan Sonora y su cercanía con la frontera norte. Es de los estados con mayor irradiación solar de México.', en:'Sonora concentrates some of the country\'s strongest activity in solar energy and nearshoring, driven by the Plan Sonora initiative and its proximity to the northern border. It has some of the highest solar irradiance in Mexico.' },
+  'Chihuahua': { es:'Chihuahua combina fuerte actividad industrial fronteriza con proyectos de energía renovable en expansión, beneficiándose de su conectividad logística con EE.UU.', en:'Chihuahua combines strong border industrial activity with expanding renewable energy projects, benefiting from its logistics connectivity with the US.' },
+  'Querétaro': { es:'Querétaro es uno de los corredores industriales y de infraestructura digital más activos del país, con fuerte presencia de nearshoring y proyectos de data centers ya anunciados en la región.', en:'Querétaro is one of the most active industrial and digital infrastructure corridors in the country, with strong nearshoring presence and data center projects already announced in the region.' },
+  'Nuevo León': { es:'Nuevo León lidera la inversión industrial por nearshoring en México, con una demanda creciente de suelo industrial y energía para sostener ese crecimiento.', en:'Nuevo León leads Mexico\'s nearshoring industrial investment, with growing demand for industrial land and energy to sustain that growth.' },
+  'default': { es:'Tu estado forma parte del mapa de expansión de infraestructura digital, energética e industrial que está viviendo México — la demanda regional varía, pero la tendencia nacional es de crecimiento sostenido.', en:'Your state is part of Mexico\'s expanding map of digital, energy and industrial infrastructure — regional demand varies, but the national trend is one of sustained growth.' }
+};
+
+function buildStateContext(){
+  var estado = qzAnswers.estado;
+  var ctx = stateContext[estado] || stateContext['default'];
+  return ctx[lang];
+}
+
+function buildCategoryDetail(cat, score){
+  var a = qzAnswers;
+  var sup = a.superficie;
+  var texts = {
+    es: {
+      energia: { green:'Proyectos de energía a gran escala suelen requerir entre 1.5 y 2 hectáreas por MW instalado. Con tus '+sup+' ha, tu terreno podría albergar aproximadamente entre <b>'+qzCalcMW(sup).low+' y '+qzCalcMW(sup).high+' MW</b> de capacidad solar — suficiente para abastecer cerca de <b>'+qzMWtoHomes(qzCalcMW(sup).low).toLocaleString()+' a '+qzMWtoHomes(qzCalcMW(sup).high).toLocaleString()+' hogares</b>. La cercanía a infraestructura de transmisión es el factor más determinante, y tu terreno cuenta con eso.', yellow:'Tu terreno muestra cierto potencial para energía a gran escala, aunque algunos factores como la distancia a la red eléctrica podrían limitar el tamaño óptimo del proyecto. Vale la pena profundizar con datos más precisos.' },
+      distribuida: { green:'El marco regulatorio de generación distribuida en México (RLSE 2025) ha simplificado el desarrollo de proyectos de autoabasto. Terrenos de tamaño medio con buena cercanía a red de distribución, como el tuyo, son atractivos para este tipo de proyecto.', yellow:'Hay cierto encaje para generación distribuida, aunque la distancia a la red podría afectar la viabilidad técnica exacta del proyecto.' },
+      digital: { green:'México añadirá más de 1,500 MW de capacidad de centros de datos entre 2025 y 2030. La disponibilidad de energía y conectividad cerca del sitio es el factor más limitante del sector — tu terreno parece tener ambos, lo cual lo posiciona bien frente a la demanda activa.', yellow:'Hay indicios de potencial para infraestructura digital, pero conviene confirmar con mayor precisión la disponibilidad de energía y conectividad en el sitio exacto.' },
+      industrial: { green:'El nearshoring sigue impulsando demanda de suelo industrial en México, particularmente en corredores con buena conectividad de carretera y cercanía a centros urbanos o zonas manufactureras — como parece ser el caso de tu terreno.', yellow:'Hay potencial industrial, aunque la distancia a zonas urbanas o el tipo de acceso podrían ser factores a mejorar o confirmar.' },
+      realestate: { green:'La proximidad a zonas urbanas en expansión suele generar interés de desarrolladores inmobiliarios. Con '+sup+' ha, en un escenario de fraccionamiento típico, tu terreno podría dar lugar a aproximadamente <b>'+qzHaToLots(sup).toLocaleString()+' lotes</b> de tamaño promedio residencial — solo como referencia de escala, no una propuesta concreta.', yellow:'Existe cierto interés inmobiliario potencial, aunque la distancia a zonas urbanas consolidadas podría limitar el corto plazo.' },
+      agricola: { green:'Tu terreno mantiene viabilidad sólida para uso agrícola o pecuario — una opción de base independientemente de otros usos potenciales que se desarrollen en el futuro.', yellow:'El uso agrícola sigue siendo una opción viable como base, incluso si exploras otros usos en paralelo.' }
+    },
+    en: {
+      energia: { green:'Utility-scale energy projects typically require between 1.5 and 2 hectares per installed MW. With your '+sup+' ha, your land could host approximately <b>'+qzCalcMW(sup).low+' to '+qzCalcMW(sup).high+' MW</b> of solar capacity — enough to power roughly <b>'+qzMWtoHomes(qzCalcMW(sup).low).toLocaleString()+' to '+qzMWtoHomes(qzCalcMW(sup).high).toLocaleString()+' homes</b>. Proximity to transmission infrastructure is the most decisive factor, and your land has that.', yellow:'Your land shows some potential for utility-scale energy, though factors like grid distance could limit the optimal project size. Worth exploring further with more precise data.' },
+      distribuida: { green:'Mexico\'s distributed generation regulatory framework (RLSE 2025) has simplified self-supply project development. Mid-sized plots with good proximity to the distribution grid, like yours, are attractive for this type of project.', yellow:'There is some fit for distributed generation, though grid distance could affect the exact technical viability of the project.' },
+      digital: { green:'Mexico will add over 1,500 MW of data center capacity between 2025 and 2030. Energy availability and connectivity near the site is the sector\'s most limiting factor — your land appears to have both, positioning it well against active demand.', yellow:'There are signs of potential for digital infrastructure, but it\'s worth confirming energy and connectivity availability at the exact site more precisely.' },
+      industrial: { green:'Nearshoring keeps driving industrial land demand in Mexico, particularly in corridors with good road connectivity and proximity to urban centers or manufacturing zones — which appears to be the case for your land.', yellow:'There is industrial potential, though distance to urban areas or access type could be factors to improve or confirm.' },
+      realestate: { green:'Proximity to expanding urban areas tends to generate interest from real estate developers. With '+sup+' ha, in a typical subdivision scenario, your land could yield approximately <b>'+qzHaToLots(sup).toLocaleString()+' lots</b> of average residential size — for scale reference only, not a concrete proposal.', yellow:'There is some potential real estate interest, though distance to established urban areas could limit short-term prospects.' },
+      agricola: { green:'Your land maintains solid viability for agricultural or livestock use — a baseline option regardless of other potential uses developed in the future.', yellow:'Agricultural use remains a viable baseline option, even while exploring other uses in parallel.' }
+    }
+  };
+  var t = texts[lang][cat];
+  return score==='green' ? t.green : t.yellow;
+}
+
+function buildIntuitionAck(){
+  var intuicion = qzAnswers.intuicion;
+  if(!intuicion) return null;
+  if(lang==='es'){
+    return 'Nos comentaste: <i>"'+intuicion+'"</i> — esa es justo el tipo de información que no obtenemos de datos públicos, y nos ayuda a entender mejor tu terreno. La tomamos en cuenta para el siguiente paso.';
+  } else {
+    return 'You told us: <i>"'+intuicion+'"</i> — that\'s exactly the kind of information we can\'t get from public data, and it helps us understand your land better. We\'ll factor it into next steps.';
+  }
+}
+
+function buildGaps(){
+  var a = qzAnswers;
+  var missing = [];
+  if(!a.sub || a.sub==='unsure') missing.push(lang==='es'?'distancia exacta a la subestación más cercana':'exact distance to the nearest substation');
+  if(camino==='B' && (!a.fibra || a.fibra==='unsure')) missing.push(lang==='es'?'disponibilidad de fibra óptica':'fiber optic availability');
+  if(!a.urbano || a.urbano==='unsure') missing.push(lang==='es'?'distancia precisa a zona urbana':'precise distance to urban area');
+  if(!a.agua || a.agua==='unsure') missing.push(lang==='es'?'disponibilidad de agua':'water availability');
+  return missing;
+}
+
+/* ════════════════════════════════════════════════════════
+   ASSEMBLE + SUBMIT + RENDER REPORT
+   ════════════════════════════════════════════════════════ */
+
+function buildSuccessRoadmap(){
+  var steps = lang==='es' ? [
+    { t:'Mantén la documentación al día', d:'Verifica que tu predial esté pagado y que no haya gravámenes pendientes. Es lo primero que cualquier desarrollador o inversor institucional revisa, y resolverlo antes acelera todo el proceso.' },
+    { t:'No fijes un precio rígido antes de tiempo', d:'El valor de un terreno para infraestructura depende de factores técnicos (capacidad de red, punto de interconexión) que cambian con el tiempo. Mantente abierto a estructuras como renta a largo plazo o asociación, no solo venta directa.' },
+    { t:'Verifica con nosotros antes de hablar con otros intermediarios', d:'Si recibes ofertas de otros compradores, compártelas con nosotros — podemos ayudarte a evaluar si son serias y si reflejan el verdadero potencial de tu predio.' },
+    { t:'Ten paciencia con los tiempos técnicos', d:'Los estudios de interconexión a la red eléctrica y los permisos pueden tardar meses. Esto es normal en este tipo de proyectos, y no significa que el interés haya desaparecido.' },
+    { t:'Pregunta antes de firmar cualquier exclusividad', d:'Si alguien te pide firmar un acuerdo de exclusividad o opción de compra, consúltalo con nosotros o con un abogado antes de firmar — son documentos que pueden comprometer tu terreno por periodos largos.' }
+  ] : [
+    { t:'Keep your documentation up to date', d:'Make sure your property tax is paid and there are no pending liens. This is the first thing any developer or institutional investor checks, and resolving it early speeds up the whole process.' },
+    { t:'Don\'t fix a rigid price too early', d:'The value of land for infrastructure depends on technical factors (grid capacity, interconnection point) that change over time. Stay open to structures like long-term lease or partnership, not just outright sale.' },
+    { t:'Check with us before talking to other intermediaries', d:'If you receive offers from other buyers, share them with us — we can help you evaluate whether they\'re serious and reflect your land\'s true potential.' },
+    { t:'Be patient with technical timelines', d:'Grid interconnection studies and permits can take months. This is normal for this type of project, and doesn\'t mean interest has disappeared.' },
+    { t:'Ask before signing any exclusivity agreement', d:'If someone asks you to sign an exclusivity agreement or purchase option, check with us or a lawyer before signing — these documents can tie up your land for long periods.' }
+  ];
+
+  var html = '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Hoja de ruta hacia una transacción exitosa':'Roadmap to a successful transaction')+'</div>';
+  html += '<p>'+(lang==='es'?'Estos son los puntos que, en nuestra experiencia, marcan la diferencia entre un proceso que avanza y uno que se estanca:':'These are the points that, in our experience, make the difference between a process that moves forward and one that stalls:')+'</p>';
+  html += '<div class="roadmap-list">';
+  steps.forEach(function(s, i){
+    html += '<div class="roadmap-item"><div class="roadmap-num">'+(i+1)+'</div><div><b>'+s.t+'</b><p>'+s.d+'</p></div></div>';
+  });
+  html += '</div></div>';
+  return html;
+}
+function buildNextStepsGuide(){
+  var a = qzAnswers;
+  var isEjidal = (a.usoActual === 'ejidal');
+
+  var docItems = lang==='es' ? [
+    'Escritura pública o título de propiedad (o documento que acredite la posesión, si es ejidal)',
+    'Certificado de libertad de gravamen actualizado (que no haya hipotecas, embargos o litigios)',
+    'Comprobante de pago de impuesto predial al corriente',
+    'Identificación oficial del/los propietarios',
+    isEjidal ? 'Certificado parcelario o constancia del Registro Agrario Nacional (RAN), si aplica' : 'Plano o medición topográfica, si la tienes (no es indispensable para empezar)'
+  ] : [
+    'Public deed or title (or possession document, if ejidal land)',
+    'Updated lien-free certificate (no mortgages, liens or disputes)',
+    'Proof of up-to-date property tax payment',
+    'Official ID of the owner(s)',
+    isEjidal ? 'Parcel certificate or National Agrarian Registry (RAN) record, if applicable' : 'Topographic survey or plan, if you have one (not required to get started)'
+  ];
+
+  var fiscalText = lang==='es'
+    ? 'En México, la venta de un terreno genera ISR sobre la ganancia obtenida, y el tratamiento varía según seas persona física o moral, y según el tiempo que lo hayas tenido. El arrendamiento también tiene su propio régimen fiscal, distinto al de la venta. Esto no sustituye asesoría — pero es información que conviene tener clara antes de avanzar en cualquier negociación.'
+    : 'In Mexico, selling land generates income tax (ISR) on the gain, and treatment varies depending on whether you are an individual or a legal entity, and how long you have held the land. Leasing has its own distinct tax regime as well. This doesn\'t replace professional advice — but it\'s information worth having clear before moving forward in any negotiation.';
+
+  var html = '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Guía práctica · Próximos pasos':'Practical guide · Next steps')+'</div>';
+  html += '<p>'+(lang==='es'?'Si decides avanzar hacia una venta, arrendamiento o asociación, esto es lo que normalmente se necesita tener listo — no es necesario tenerlo ahora, pero te ayuda a anticiparte:':'If you decide to move forward with a sale, lease or partnership, this is what is typically needed — you don\'t need it now, but it helps to anticipate:')+'</p>';
+  html += '<div class="report-gap" style="border-style:solid;background:#fff;"><b>'+(lang==='es'?'Documentación habitual':'Typical documentation')+'</b><ul>';
+  docItems.forEach(function(d){ html += '<li>'+d+'</li>'; });
+  html += '</ul></div>';
+  html += '<p style="margin-top:14px"><b>'+(lang==='es'?'Sobre impuestos: ':'On taxes: ')+'</b>'+fiscalText+'</p>';
+  html += '</div>';
+  return html;
+}
+
+function qzSubmitAndShowReport(){
+  var scores = qzScore();
+  var top = qzTopCategory(scores);
+  qzAnswers.scores = scores;
+  qzAnswers.topCategory = top;
+
+  // Build report HTML
+  var html = '';
+
+  // Layer 1 — Teaser
+  html += '<div class="report-teaser"><div class="report-teaser-label">'+(lang==='es'?'Tu análisis instantáneo':'Your instant analysis')+'</div><div class="report-teaser-text">'+buildTeaser(scores, top)+'</div></div>';
+
+  // PDF download CTA — right after teaser, high visibility
+  html += '<div class="report-pdf-cta"><div class="report-pdf-cta-text"><i class="ti ti-file-type-pdf"></i> '+(lang==='es'?'Descarga tu informe completo en PDF':'Download your full report as PDF')+'</div><button onclick="qzGeneratePDF()" class="btn-primary" style="border:none;cursor:pointer"><i class="ti ti-download"></i> '+(lang==='es'?'Descargar PDF':'Download PDF')+'</button></div>';
+
+  // Layer 2 — Macro to specific funnel
+  html += '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Contexto · México':'Context · Mexico')+'</div><p>'+buildMacroContext()+'</p></div>';
+  html += '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Contexto · '+qzAnswers.estado:'Context · '+qzAnswers.estado)+'</div><p>'+buildStateContext()+'</p></div>';
+
+  // Category breakdown with semaforo
+  html += '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Potencial por categoría':'Potential by category')+'</div>';
+  var order = ['energia','digital','distribuida','industrial','realestate','agricola'];
+  order.forEach(function(cat){
+    if(qzCategoryIsExcluded(scores, cat)) return; // category doesn't structurally apply — don't mention it at all
+    var sc = scores[cat];
+    if(sc==='red') return; // don't show red categories prominently
+    var semClass = sc==='green' ? 'green' : 'yellow';
+    html += '<div class="report-cat"><div class="report-cat-head"><div class="semaforo '+semClass+'"></div><div class="report-cat-name">'+catLabel[lang][cat]+'</div></div><p>'+buildCategoryDetail(cat, sc)+'</p></div>';
+  });
+  html += '</div>';
+
+  // Layer 3 — Intuition acknowledgment
+  var ack = buildIntuitionAck();
+  if(ack){
+    html += '<div class="report-section"><div class="report-section-label">'+(lang==='es'?'Tu intuición':'Your intuition')+'</div><div class="report-intuition">'+ack+'</div></div>';
+  }
+
+  // Layer 4 — Gaps / what's missing
+  var gaps = buildGaps();
+  if(gaps.length){
+    html += '<div class="report-section"><div class="report-gap"><b>'+(lang==='es'?'Este análisis mejoraría con:':'This analysis would improve with:')+'</b><ul>';
+    gaps.forEach(function(g){ html += '<li>'+g+'</li>'; });
+    html += '</ul></div></div>';
+  }
+
+  // Layer 5 — Practical next steps guide (documentation, legal, fiscal)
+  html += buildNextStepsGuide();
+
+  // Layer 6 — Roadmap to a successful transaction with us
+  html += buildSuccessRoadmap();
+
+  // Share CTA — the "tell a neighbor" mechanism
+  html += '<div class="report-share">';
+  html += '<p>'+(lang==='es'?'¿Conoces a alguien con un terreno que podría tener un potencial parecido? Compártele este análisis.':'Do you know someone with land that might have similar potential? Share this analysis with them.')+'</p>';
+  html += '<div class="report-share-btns">';
+  html += '<a href="https://wa.me/?text='+encodeURIComponent(lang==='es'?'Encontré esta herramienta que analiza gratis el potencial de un terreno en México — la usé para el mío: https://www.metaxterra.com':'I found this tool that analyzes a plot of land potential in Mexico for free — I used it for mine: https://www.metaxterra.com')+'" target="_blank" class="btn-ghost"><i class="ti ti-brand-whatsapp"></i> WhatsApp</a>';
+  html += '<button onclick="qzCopyLink(this)" class="btn-ghost" style="border:none;background:transparent;cursor:pointer"><i class="ti ti-link"></i> '+(lang==='es'?'Copiar link':'Copy link')+'</button>';
+  html += '</div></div>';
+
+  // CTA + disclaimer
+  html += '<div class="report-cta"><a href="mailto:juan.abarca@jsa.global" class="btn-primary"><i class="ti ti-mail"></i> '+(lang==='es'?'Hablar con el equipo':'Talk to the team')+'</a></div>';
+  html += '<p class="report-disclaimer">'+(lang==='es'?'Este análisis es una primera orientación basada en información pública de mercado, no una valoración de tu terreno específico ni asesoría legal o fiscal. El siguiente paso natural es una evaluación técnica más detallada, y para temas legales/fiscales recomendamos siempre confirmar con un abogado o contador.':'This analysis is an initial orientation based on public market information, not a valuation of your specific land nor legal or tax advice. The natural next step is a more detailed technical evaluation, and for legal/tax matters we always recommend confirming with a lawyer or accountant.')+'</p>';
+
+  document.getElementById('qz-report-content').innerHTML = html;
+  qzGoToStep('qz-step-report');
+
+  // Submit to FormSubmit in background
+  qzSendToFormSubmit(scores, top);
+}
+
+function qzGeneratePDF(){
+  if(typeof window.jspdf === 'undefined'){
+    qzAlert('No se pudo generar el PDF. Intenta de nuevo en unos segundos.','Could not generate the PDF. Please try again in a few seconds.');
+    return;
+  }
+  var a = qzAnswers;
+  var scores = a.scores;
+  var top = a.topCategory;
+  var jsPDF = window.jspdf.jsPDF;
+  var doc = new jsPDF({unit:'mm', format:'a4'});
+  var pageW = 210, margin = 18, y = 22, lineH = 6, maxW = pageW - margin*2;
+
+  function checkPage(extra){
+    if(y + (extra||10) > 280){ doc.addPage(); y = 22; }
+  }
+  function addTitle(text){
+    checkPage(14);
+    doc.setFont('helvetica','bold'); doc.setFontSize(13); doc.setTextColor(15,110,86);
+    doc.text(text, margin, y); y += 8;
+    doc.setDrawColor(225,245,238); doc.setLineWidth(0.6); doc.line(margin, y-4, pageW-margin, y-4);
+  }
+  function addParagraph(text, opts){
+    opts = opts || {};
+    doc.setFont('helvetica', opts.bold?'bold':'normal');
+    doc.setFontSize(opts.size||10);
+    doc.setTextColor(opts.color?opts.color[0]:60, opts.color?opts.color[1]:60, opts.color?opts.color[2]:58);
+    var clean = text.replace(/<[^>]*>/g,''); // strip any html tags from text built for screen
+    var lines = doc.splitTextToSize(clean, maxW);
+    lines.forEach(function(l){
+      checkPage(lineH+2);
+      doc.text(l, margin, y);
+      y += lineH;
+    });
+    y += 2;
+  }
+
+  // ── Header with brand symbol ──
+  doc.setFillColor(15,110,86); doc.rect(0,0,pageW,16,'F');
+  // X symbol box
+  doc.setFillColor(8,80,65); doc.roundedRect(margin-2, 3, 10, 10, 1.5, 1.5, 'F');
+  doc.setDrawColor(93,202,165); doc.setLineWidth(0.9);
+  doc.line(margin+0.5, 5.2, margin+5.5, 10.8);
+  doc.setDrawColor(255,255,255);
+  doc.line(margin+5.5, 5.2, margin+0.5, 10.8);
+  doc.setTextColor(255,255,255); doc.setFont('helvetica','bold'); doc.setFontSize(13);
+  doc.text('MetaXTerra', margin+12, 11);
+  doc.setFontSize(9); doc.setFont('helvetica','normal');
+  doc.text(lang==='es'?'Análisis de terreno':'Land analysis', pageW-margin, 11, {align:'right'});
+  y = 26;
+
+  doc.setTextColor(26,26,26); doc.setFont('helvetica','bold'); doc.setFontSize(16);
+  doc.text(lang==='es'?'Informe de análisis de terreno':'Land analysis report', margin, y); y += 9;
+  doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.setTextColor(100,100,95);
+  doc.text((a.nombre||'')+' · '+(a.municipio?a.municipio+', ':'')+(a.estado||'')+' · '+(a.superficie||'')+' ha', margin, y); y += 5;
+  doc.text(new Date().toLocaleDateString(lang==='es'?'es-MX':'en-US', {year:'numeric',month:'long',day:'numeric'}), margin, y); y += 10;
+
+  // ── Teaser ──
+  addTitle(lang==='es'?'Resumen':'Summary');
+  addParagraph(buildTeaser(scores, top), {size:10.5});
+
+  // ── Macro context ──
+  addTitle(lang==='es'?'Contexto · México':'Context · Mexico');
+  addParagraph(buildMacroContext());
+
+  // ── State context ──
+  addTitle(lang==='es'?'Contexto · '+a.estado:'Context · '+a.estado);
+  addParagraph(buildStateContext());
+
+  // ── Categories ──
+  addTitle(lang==='es'?'Potencial por categoría':'Potential by category');
+  var order = ['energia','digital','distribuida','industrial','realestate','agricola'];
+  order.forEach(function(cat){
+    if(qzCategoryIsExcluded(scores, cat)) return;
+    var sc = scores[cat];
+    if(sc==='red') return;
+    checkPage(14);
+    doc.setFont('helvetica','bold'); doc.setFontSize(10.5);
+    var dotColor = sc==='green' ? [29,158,117] : [224,161,0];
+    doc.setFillColor(dotColor[0],dotColor[1],dotColor[2]);
+    doc.circle(margin+1.5, y-1.3, 1.5, 'F');
+    doc.setTextColor(26,26,26);
+    doc.text(catLabel[lang][cat], margin+7, y);
+    y += 6;
+    addParagraph(buildCategoryDetail(cat, sc), {size:9.5});
+  });
+
+  // ── Intuition ──
+  var ack = buildIntuitionAck();
+  if(ack){
+    addTitle(lang==='es'?'Tu intuición':'Your intuition');
+    addParagraph(ack, {size:9.5});
+  }
+
+  // ── Roadmap ──
+  addTitle(lang==='es'?'Hoja de ruta hacia una transacción exitosa':'Roadmap to a successful transaction');
+  var steps = lang==='es' ? [
+    'Mantén la documentación al día — predial pagado y sin gravámenes pendientes.',
+    'No fijes un precio rígido antes de tiempo — mantente abierto a venta, renta o asociación.',
+    'Verifica con nosotros antes de firmar nada con otros intermediarios.',
+    'Ten paciencia con los tiempos técnicos de interconexión y permisos.',
+    'Pregunta antes de firmar cualquier acuerdo de exclusividad.'
+  ] : [
+    'Keep your documentation up to date — property tax paid, no pending liens.',
+    'Don\u2019t fix a rigid price too early — stay open to sale, lease or partnership.',
+    'Check with us before signing anything with other intermediaries.',
+    'Be patient with grid interconnection and permitting timelines.',
+    'Ask before signing any exclusivity agreement.'
+  ];
+  steps.forEach(function(s, i){ addParagraph((i+1)+'. '+s, {size:9.5}); });
+
+  // ── Documentation checklist ──
+  addTitle(lang==='es'?'Documentación habitual':'Typical documentation');
+  var isEjidal = (a.usoActual === 'ejidal');
+  var docItems = lang==='es' ? [
+    'Escritura pública o título de propiedad (o posesión, si es ejidal)',
+    'Certificado de libertad de gravamen actualizado',
+    'Comprobante de pago de impuesto predial al corriente',
+    'Identificación oficial del/los propietarios',
+    isEjidal ? 'Certificado parcelario o constancia del RAN' : 'Plano o medición topográfica, si la tienes'
+  ] : [
+    'Public deed or title (or possession document, if ejidal)',
+    'Updated lien-free certificate',
+    'Proof of up-to-date property tax payment',
+    'Official ID of the owner(s)',
+    isEjidal ? 'Parcel certificate or RAN record' : 'Topographic survey, if available'
+  ];
+  docItems.forEach(function(d){ addParagraph('• '+d, {size:9.5}); });
+
+  addParagraph((lang==='es'?'Nota fiscal: ':'Tax note: ')+(lang==='es'
+    ? 'la venta de un terreno genera ISR sobre la ganancia, con tratamiento distinto según seas persona física o moral y el tiempo de tenencia. El arrendamiento tiene su propio régimen. Esto no sustituye asesoría profesional.'
+    : 'selling land generates income tax (ISR) on the gain, with different treatment depending on individual vs. legal entity status and holding period. Leasing has its own regime. This does not replace professional advice.'), {size:9, color:[150,148,140]});
+
+  // ── Contact ──
+  checkPage(30);
+  doc.setFillColor(225,245,238); doc.roundedRect(margin, y, maxW, 26, 2, 2, 'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(10.5); doc.setTextColor(15,110,86);
+  doc.text(lang==='es'?'¿Siguiente paso?':'Next step?', margin+6, y+9);
+  doc.setFont('helvetica','normal'); doc.setFontSize(9.5); doc.setTextColor(60,60,58);
+  doc.text(lang==='es'?'Escríbenos a juan.abarca@jsa.global para platicar sobre tu terreno.':'Write to us at juan.abarca@jsa.global to talk about your land.', margin+6, y+17);
+  y += 32;
+
+  // ── Disclaimer ──
+  addParagraph(lang==='es'
+    ? 'Este análisis es una primera orientación basada en información pública de mercado, no una valoración de tu terreno específico ni asesoría legal o fiscal.'
+    : 'This analysis is an initial orientation based on public market information, not a valuation of your specific land nor legal or tax advice.', {size:8, color:[150,148,140]});
+
+  // ── Footer on every page ──
+  var totalPages = doc.internal.getNumberOfPages();
+  for(var p=1; p<=totalPages; p++){
+    doc.setPage(p);
+    doc.setDrawColor(230,230,225); doc.setLineWidth(0.3);
+    doc.line(margin, 287, pageW-margin, 287);
+    doc.setFont('helvetica','normal'); doc.setFontSize(8); doc.setTextColor(150,148,140);
+    doc.text('metaxterra.com', margin, 292);
+    doc.text((lang==='es'?'Parte de Metaxium Group':'Part of Metaxium Group'), pageW/2, 292, {align:'center'});
+    doc.text((lang==='es'?'Página ':'Page ')+p+' / '+totalPages, pageW-margin, 292, {align:'right'});
+  }
+
+  var fname = 'MetaXTerra_Analisis_'+(a.nombre||'terreno').replace(/[^a-zA-Z0-9]/g,'_')+'.pdf';
+  doc.save(fname);
+}
+
+function qzCopyLink(btn){
+  var url = 'https://www.metaxterra.com';
+  navigator.clipboard.writeText(url).then(function(){
+    var original = btn.innerHTML;
+    btn.innerHTML = '<i class="ti ti-check"></i> '+(lang==='es'?'¡Copiado!':'Copied!');
+    setTimeout(function(){ btn.innerHTML = original; }, 2000);
+  }).catch(function(){
+    qzAlert('No se pudo copiar el link.','Could not copy the link.');
+  });
+}
+
+function qzSendToFormSubmit(scores, top){
+  var a = qzAnswers;
+  var order = ['energia','digital','distribuida','industrial','realestate','agricola'];
+  var catSummary = order.map(function(cat){
+    if(qzCategoryIsExcluded(scores, cat)) return catLabel.es[cat]+': excluido (no aplica por tamaño/ubicación)';
+    return catLabel.es[cat]+': '+(scores[cat]==='green'?'🟢 alto':scores[cat]==='yellow'?'🟡 medio':'🔴 bajo');
+  }).join(' | ');
+
+  var payload = {
+    _subject: '[MetaXTerra] Nuevo análisis — '+(a.nombre||'Sin nombre')+' — '+(a.estado||'—')+' — Top: '+(catLabel.es[top]||'—'),
+    'Camino': a.camino==='A' ? 'A - Tenía idea ('+(a.idea||'—')+')' : 'B - Sin idea clara',
+    'Nombre': a.nombre||'—',
+    'Teléfono': a.tel||'—',
+    'Email': a.email||'—',
+    'Rol': ({owner:'Propietario directo',rep:'Apoderado/representante',broker:'Intermediario'})[a.rol] || '—',
+    'Estado': a.estado||'—',
+    'Municipio': a.municipio||'—',
+    'Coordenadas / Maps': a.coordenadas||'—',
+    'Superficie (ha)': a.superficie||'—',
+    'Uso actual': a.usoActual||'—',
+    'Subestación/línea': ({close:'<10km',mid:'10-30km',unsure:'No sabe',none:'No hay'})[a.sub] || '—',
+    'Fibra óptica': ({yes:'Sí',unsure:'No sabe',no:'No'})[a.fibra] || '—',
+    'Acceso carretera': ({paved:'Pavimentada',dirt:'Terracería',none:'Sin acceso'})[a.road] || '—',
+    'Topografía': ({flat:'Plano',semiflat:'Semiplano',sloped:'Con pendientes'})[a.topo] || '—',
+    'Agua': ({yes:'Sí',no:'No',unsure:'No sabe'})[a.agua] || '—',
+    'Cercanía urbana': ({close:'<10km',mid:'10-50km',far:'>50km'})[a.urbano] || '—',
+    'Intuición del propietario': a.intuicion || '—',
+    'Referencia de precio (interno)': a.precioRef || '—',
+    'Categoría top (resultado)': catLabel.es[top] || '—',
+    'Resumen de categorías': catSummary,
+    'Consentimiento privacidad': 'Aceptado',
+    _captcha: 'false',
+    _template: 'table'
+  };
+
+  fetch('https://formsubmit.co/ajax/juan.abarca@jsa.global', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    body: JSON.stringify(payload)
+  }).catch(function(){ /* silent fail — report already shown to user */ });
+}
+</script>
+</body>
+</html>
