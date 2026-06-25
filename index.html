@@ -2078,6 +2078,7 @@ function qzSendContactOnly(){
   var a = qzAnswers;
   var payload = {
     _subject: '[MetaXTerra] Contacto capturado — '+(a.nombre||'Sin nombre')+' — formulario incompleto',
+    _url: 'https://www.metaxterra.com/',
     'Estado del formulario': '⚠️ Solo contacto — el usuario no completó el cuestionario',
     'Nombre': a.nombre||'—',
     'Teléfono': a.tel||'—',
@@ -2109,6 +2110,7 @@ function qzSendToFormSubmit(scores, top){
 
   var payload = {
     _subject: '[MetaXTerra] Nuevo análisis — '+(a.nombre||'Sin nombre')+' — '+(a.estado||'—')+' — Top: '+(catLabel.es[top]||'—'),
+    _url: 'https://www.metaxterra.com/',
     'Camino': a.camino==='A' ? 'A - Tenía idea ('+(a.idea||'—')+')' : 'B - Sin idea clara',
     'Nombre': a.nombre||'—',
     'Teléfono': a.tel||'—',
